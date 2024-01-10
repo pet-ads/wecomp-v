@@ -1,0 +1,88 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: var(--page-height);
+
+}
+
+.bannerContainer {
+    width: 100%;
+}
+
+.bannerImage {
+    width: 73%;
+    max-width: 120vh;
+}
+
+.bannerTitle {
+    margin: 30px;
+    font-size: var(--subtitle-font-size);
+}
+
+.bannerText {
+    font-size: var(--text-font-size);
+    font-weight: 400;
+}
+
+.enrollmentPeriod {
+    margin-top: 40px;
+    font-size: 30px;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+@media screen and (max-width: 670px) {
+    .bannerTitle {
+        font-size: var(--mobile-title-font-size);
+    }
+
+    .bannerText {
+        font-size: var(--mobile-text-font-size);
+    }
+
+    .enrollmentPeriod {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .bannerTitle {
+        font-size: 20px;
+    }
+
+    .bannerText {
+        font-size: 15px;
+    }
+
+    .enrollmentPeriod {
+        font-size: 20px;
+    }
+}

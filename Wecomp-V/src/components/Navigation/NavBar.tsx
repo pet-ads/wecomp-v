@@ -9,7 +9,7 @@ export default function NavBar() {
       <ul className={styles.navbarConteiner}>
         {paths.map((path, index) => (
           <li className={styles.navbarItem}>
-            <a className={styles.navbarLink} key={index}>
+            <a className={styles.navbarLink} key={index} href={`#${path}`}>
               {path}
             </a>
           </li>
