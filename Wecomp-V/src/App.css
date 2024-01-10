@@ -1,0 +1,13 @@
+.app {
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+    min-height: 100vh;
+}
+
+.scroll-container {
+    height: var(--page-height);
+    width: auto;
+    overflow: scroll;
+}

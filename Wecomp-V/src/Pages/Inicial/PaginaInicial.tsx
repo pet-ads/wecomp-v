@@ -1,4 +1,4 @@
-import logoWecomp from "../assets/images/logoCerto.png";
+import logoWecomp from "../../assets/images/logoCerto.png";
 import styles from "./PaginaInicial.module.css";
 
 export default function Inicio() {
