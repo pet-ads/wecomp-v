@@ -1,0 +1,12 @@
+.IFSPLogo {
+    left: 15%;
+    width: 180px;
+    height: auto;
+    margin-top: 5px;
+    position: relative;
+}
+
+.IFSPLogo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
