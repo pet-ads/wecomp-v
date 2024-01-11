@@ -26,7 +26,7 @@
 /*    .partnersTitleContainer{*/
 /*        padding-bottom: 1vh;*/
 /*        padding-top: 1vh;*/
-/*    }*/
+/*    }
 
 /*    .partnersTitle {*/
 /*        */
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 600px) {
     .groupOfPartners {
-        display: block;
+        display: flex;
         padding: 3% 0;
     }
 }
