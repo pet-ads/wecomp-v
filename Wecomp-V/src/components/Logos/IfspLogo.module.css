@@ -1,8 +1,9 @@
 .IFSPLogo {
-    left: 15%;
-    width: 180px;
+
+    width: 15vh;
     height: auto;
-    margin-top: 5px;
+    margin-top: .5vh;
+    margin-left: 3vh;
     position: relative;
 }
 

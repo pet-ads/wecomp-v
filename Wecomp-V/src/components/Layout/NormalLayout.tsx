@@ -12,7 +12,7 @@ export default function NormalLayout() {
       <div className="scroll-container parallax">
         <div className="parallax_layer_base parallax__layer">
           <Inicio />
-          <Parceiros />
+          <Parceiros isLandscape={true} />
           <Sobre />
           <Programacao />
           <Local />

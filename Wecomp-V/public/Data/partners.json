@@ -1,0 +1,78 @@
+{
+    "organizers": [
+        {
+            "id": 1,
+            "src": "../logos/pet.png",
+            "name": "PET/ADS",
+            "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html",
+            "width": 160
+        },
+        {
+            "id": 2,
+            "src": "../logos/ifsp.png",
+            "name": "IFSP - São Carlos",
+            "link": "https://portais.ifsp.edu.br/scl/",
+            "width": 230
+        }
+    ],
+    "supporters": [
+        {
+            "id": 1,
+            "src": "../logos/onovolab.jpg",
+            "name": "Onovolab",
+            "link": "https://onovolab.com",
+            "width": 240
+        },
+        {
+            "id": 2,
+            "src": "../logos/monitora_black.png",
+            "name": "Marlabs - Monitora",
+            "link": "https://monitoratec.com.br",
+            "width": 260
+        },
+        {
+            "id": 3,
+            "src": "../logos/media_monks.png",
+            "name": "Media.monks",
+            "link": "https://media.monks.com/pt",
+            "width": 225
+        },
+        {
+            "id": 4,
+            "src": "../logos/minsait.png",
+            "name": "Minsait",
+            "link": "https://www.minsait.com/pt",
+            "width": 180
+        },
+        {
+            "id": 5,
+            "src": "../logos/f1rst.png",
+            "name": "F1RST",
+            "link": "https://www.f1rst.com.br/first/",
+            "width": 210
+        },
+        {
+            "id": 6,
+            "src": "../logos/inova.png",
+            "name": "Inova IFSP",
+            "link": "http://inova.ifsp.edu.br/",
+            "width": 180
+        },
+        {
+            "id": 7,
+            "src": "../logos/logoonesix_transp3.png",
+            "name": "OneSix",
+            "link": "https://onesix.global",
+            "width": 170
+        }
+    ],
+    "unused": [
+        {
+            "id": 8,
+            "src": "../logos/RaiaDrogasil.png",
+            "name": "RaiaDrogasil",
+            "link": "https://rd.com.br",
+            "width": 160
+        }
+    ]
+}
