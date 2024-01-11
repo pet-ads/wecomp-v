@@ -15,10 +15,11 @@
 .bannerImage {
     width: 73%;
     max-width: 120vh;
+    margin: auto;
 }
 
 .bannerTitle {
-    margin: 30px;
+    margin: auto;
     font-size: var(--subtitle-font-size);
 }
 

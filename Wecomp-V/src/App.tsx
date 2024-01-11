@@ -1,10 +1,13 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import NormalLayout from "./components/Layout/NormalLayout";
 
 function App() {
   return (
-    <div className="app">
-      <NormalLayout />
-    </div>
+    <ChakraProvider>
+      <div className="app">
+        <NormalLayout />
+      </div>
+    </ChakraProvider>
   );
 }
 

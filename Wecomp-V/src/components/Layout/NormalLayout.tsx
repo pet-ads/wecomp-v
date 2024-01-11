@@ -11,7 +11,7 @@ export default function NormalLayout() {
       <NavBar />
       <div className="scroll-container parallax">
         <div className="parallax_layer_base parallax__layer">
-          <Inicio />
+          <Inicio text={"V Semana da Computação"} subtitle={"Em breve"} />
           <Parceiros isLandscape={true} />
           <Sobre />
           <Programacao />
