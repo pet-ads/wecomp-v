@@ -1,0 +1,113 @@
+{
+    "listOfEvents": [
+        {
+            "id": 28.1,
+            "name": "Abertura oficial",
+            "image": "../../eventsImages/onovolab.png",
+            "imageDesc": "OnovoLab",
+            "author": "ONOVOLAB",
+            "date": "28 de agosto",
+            "time": "19h - 21h30",
+            "link": "https://www.sympla.com.br/abertura-da-iv-semana-da-computacao-wecomp-do-ifsp-sao-carlos__2114909",
+            "active": false,
+            "status": "ESGOTADO!",
+            "location": "ONOVOLAB",
+            "description": "A abertura oficial da IV Wecomp acontecerá no ONOVOLAB e contará com a presença de empresas parceiras, uma mesa redonda com o tema 'IA generativa, mercado de trabalho e a carreira dos (novos) desenvolvedores' e uma confraternização. Não perca!"
+        },
+        {
+            "id": 28.2,
+            "name": "Como é o dia-a-dia de um QA?",
+            "image": "../../eventsImages/cerminaro.jpeg",
+            "imageDesc": "Cerminaro",
+            "bio": "Leonardo Cerminaro é formado em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos e trabalha como Senior Quality Assurance Enginee na X-Team. Possui certificações de teste de software CTFL-AT e CTFL da BSTQB e ampla experiência em qualidade de software.",
+            "author": "Leonardo Cerminaro",
+            "date": "28 de agosto",
+            "time": "8h - 12h",
+            "link": "https://forms.gle/DLzmDh1j7UDSu7f28",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "basico",
+            "description": "Nesse workshop, serão demonstradas de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
+        },
+        {
+            "id": 28.3,
+            "name": "Criando um aplicativo de clima com Flutter",
+            "image": "../../eventsImages/davi.png",
+            "imageDesc": "Davi Guelfi Erba",
+            "bio": "Davi é desenvolvedor full-stack com foco em front-end na Monitora, organizador do OpenSanca, apaixonado por carro, tecnologia e aleatoriedades",
+            "author": "Davi Guelfi Erba",
+            "date": "28 de agosto",
+            "time": "8h - 12h",
+            "link": "https://forms.gle/f3bwWbb9V6aAJvnz6",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "basico",
+            "description": "Neste minicurso os participantes irão aprender como criar um aplicativo para visualizar dados metereologicos (clima) utilizando o Flutter. É um curso básico para os que querem conhecer essa tecnologia de desenvolvimento híbrida que é uma das mais utilizadas hoje em dia no mercado de trabalho."
+        },
+        {
+            "id": 29.1,
+            "name": "Jornada Cloud Native",
+            "subTitle": "Modernizando infraestrutura e work loads com observabilidade",
+            "image": "../../eventsImages/cloud_native.png",
+            "imageDesc": "Jornada Cloud Native",
+            "bio": [
+                "Henrique Lima Margarido é Analista Sênior de DevOps na Minsait, atuando com arquitetura, automação e otimização de ambientes complexos de TI. Possui profundo conhecimento e prática no gerenciamento de soluções e arquiteturas, incluindo Kubernetes, CI/CD, conteinerização, automação de infraestrutura, observabilidade e plataformas de nuvem como AWS e Azure.",
+                "Augusto Moreto Barros atua com tecnologias de CICD, Docker, IAC, Kubernetes, Observabilidade, Java, Node, Python, Azure, AWS e Oracle. É responsável por administrar todos os ambientes desde DEV até PROD na Minsait, construindo desde o CI/CD e container até a infraestrutura, observabilidade e demais configurações."
+            ],
+            "author": "Henrique Margarido e Augusto Barros",
+            "date": "29 de agosto",
+            "time": "8h - 12h",
+            "link": "https://forms.gle/7BMKazi7Q4d9GPQy6",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "intermediario",
+            "description": "Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura, à medida que as arquiteturas de software crescem em complexidade. A capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental, e é aqui que a observabilidade entra em cena.  Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
+        },
+        {
+            "id": 29.2,
+            "name": "Explorando a arquitetura MVVM e Consumo de API em Desenvolvimento Mobile",
+            "image": "../../eventsImages/mvvm.png",
+            "imageDesc": "Geovanna Martins e Gustavo Feliciano",
+            "bio": [
+                "Geovana Martins é formada em Análise e Desenvolvimento de Sistemas e atua como desenvolvedora Android na Santander F1RST.",
+                "Gustavo Feliciano é formado em Ciência da Computação e atua como Engenheiro iOS na F1RST."
+            ],
+            "author": "Geovanna Martins e Gustavo Feliciano",
+            "date": "29 de agosto",
+            "time": "9h - 12h",
+            "link": "https://forms.gle/YYBTb7h1E7YEysZy8",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "intermediario",
+            "description": "O intuito desse curso é fomentar o desenvolvimento de aplicações nativas Android e iOS, de maneira prática, colocando a mão na massa. No primeiro momento, os alunos serão introduzidos em como organizar um projeto MVVM e consumo de REST API com Swift. A ideia é introduzir a linguagem Swift e o consumo de serviços. E em seguida,  vamos desenvolver um aplicativo Android, utilizando a linguagem Kotlin e consumindo a API viacep.com.br O curso é voltado para todos alunos que tem o interesse em conhecer e aprender sobre o desenvolvimento Android e iOS. Contamos com a presença de vocês."
+        },
+        {
+            "id": 29.3,
+            "name": "Ciência de dados aplicada a imagens",
+            "image": "../../eventsImages/jorge_augusto.png",
+            "imageDesc": "Ciência de dados aplicada a imagens",
+            "bio": [
+                "Jorge Franco realizou estágio como Cientista de Dados na Visagio e em Machine Learning na Wikki Brasil. Contribuí em projetos de pesquisa de IA no C4AI -Fapesp e na Embrapa. Formado em Técnico em Informática para Internet pelo IFSP-São Carlos e atualmente cursa Ciências de Computação na USP-ICMC.",
+                "Augusto Nunes é técnico em Manutenção e Suporte em informática, já fez iniciações científicas em Otimização numérica, Processamento de linguagem natural e Machine Learning. Atualmente, é estudante do curso de Estatística e Ciência de Dados no ICMC-USP e coordenador de ensino do grupo DATA."
+            ],
+            "author": "Jorge Luiz Franco e Augusto Nunes",
+            "date": "29 de agosto",
+            "time": "14h - 18h",
+            "link": "https://forms.gle/ZfiRBYJdsKDdEmjS6",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "basico",
+            "description": "Neste curso será apresentado conceitos básicos de um pipeline de ciência de dados aplicado a imagens, como obtenção de dados, pré processamento, ajuste de modelos, avaliação e diferentes tarefas da área de visão computacional. É necessário conhecimento da linguagem python."
+        }
+    ]
+}

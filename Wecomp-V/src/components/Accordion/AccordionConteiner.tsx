@@ -8,7 +8,7 @@ interface AccordionContainerProps {
 
 export default function AccordionContainer({ title, children }: AccordionContainerProps) {
   return (
-    <Accordion defaultIndex={[0]} allowMultiple>
+    <Accordion allowMultiple>
       <AccordionItem>
         <h2>
           <AccordionButton>
