@@ -11,7 +11,14 @@ export default function Sobre() {
       <header>
         <Heading>Informações do Evento</Heading>
       </header>
-      <Card display={"flex"} width={"90vw"} justifySelf={"center"} alignSelf={"center"}>
+      <Card
+        display={"flex"}
+        width={"90vw"}
+        justifySelf={"center"}
+        alignSelf={"center"}
+        borderRadius={16}
+        boxShadow={" 0 4px 8px rgba(0, 0, 0, 0.1)"}
+      >
         <Box display={"flex"} flexDir={"column"}>
           <Infos />
         </Box>
