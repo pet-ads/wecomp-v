@@ -1,3 +1,4 @@
+import "./Locationframe.css";
 interface LocationProps {
   name: string;
   address: string;
