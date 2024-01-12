@@ -1,7 +1,24 @@
+import { Box, Card, Heading } from "@chakra-ui/react";
+import "./AboutTheEvent.css";
+
+import AccordionContainer from "../../components/Accordion/AccordionConteiner";
+import Infos from "./subcomponents/AboutWecomp";
+import Contact from "../../components/Contato/ContatoInfos";
+
 export default function Sobre() {
   return (
-    <div id="sobre" className="container">
-      <h1> Sobre</h1>
-    </div>
+    <section id="informacoes" className="about-the-event">
+      <header>
+        <Heading>Informações do Evento</Heading>
+      </header>
+      <Card display={"flex"} width={"90vw"} justifySelf={"center"} alignSelf={"center"}>
+        <Box display={"flex"} flexDir={"column"}>
+          <Infos />
+        </Box>
+        <Box>
+          <AccordionContainer title="Informoções de contato" children={<Contact isLandscape={true} />} />
+        </Box>
+      </Card>
+    </section>
   );
 }

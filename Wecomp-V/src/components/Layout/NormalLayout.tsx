@@ -12,8 +12,8 @@ export default function NormalLayout() {
       <div className="scroll-container parallax">
         <div className="parallax_layer_base parallax__layer">
           <Inicio text={"V Semana da Computação"} subtitle={"Em breve"} />
-          <Parceiros isLandscape={true} />
           <Sobre />
+          <Parceiros isLandscape={true} />
           <Programacao />
           <Local />
         </div>

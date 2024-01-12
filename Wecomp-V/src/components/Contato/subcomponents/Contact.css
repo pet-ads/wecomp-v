@@ -1,0 +1,103 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: var(--page-height);
+
+}
+
+.contact>.disclaimer {
+    width: 70%;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    text-align: left;
+}
+
+.contact>h2 {
+    font-size: var(--title-font-size);
+}
+
+.contact>h3 {
+    margin: 20px;
+    font-size: var(--subtitle-font-size);
+}
+
+
+
+.email {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.facebook {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.instagram {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.email>p {
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    text-align: center;
+    max-width: 46rem;
+}
+
+.socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 20px;
+}
+
+.socialMediaLogo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    transition: transform 0.2s ease-out;
+}
+
+.socialMediaLogo:hover {
+    transform: translateY(-5px);
+}
+
+.socialMedia>div>p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .contact {
+        margin: 20% 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .socialMedia>div {
+        padding: 2% 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .socialMedia>div {
+        padding: 2% 0;
+    }
+}
+
+.contact-landscape {
+    height: unset !important;
+}

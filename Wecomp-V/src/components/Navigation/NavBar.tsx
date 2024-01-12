@@ -2,7 +2,7 @@ import LogoIFSP from "../Logos/IFSPLogo";
 import styles from "./Nav.module.css";
 
 export default function NavBar() {
-  const paths: string[] = ["Início", "Parceiros", "Sobre", "Programação", "Local"];
+  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local"];
   const removeAccents = (str: string) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   };

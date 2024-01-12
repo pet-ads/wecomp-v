@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import GroupOfPartners from "./subcomponents/GroupOfPartners";
+import "./Parceiros.css";
 
 interface IParceirosProps {
   isLandscape: boolean;
@@ -11,7 +12,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
   useEffect(() => {
     const fetchPartners = async () => {
       try {
-        const response = await fetch("./partners.json");
+        const response = await fetch("/Data/partners.json");
         const data = await response.json();
         setSupporters(data.supporters);
         setOrganizers(data.organizers);

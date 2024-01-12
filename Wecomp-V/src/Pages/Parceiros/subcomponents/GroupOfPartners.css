@@ -22,17 +22,6 @@
     padding-top: 2vh;
 }
 
-/*@media screen and (max-width: 1100px) {*/
-/*    .partnersTitleContainer{*/
-/*        padding-bottom: 1vh;*/
-/*        padding-top: 1vh;*/
-/*    }
-
-/*    .partnersTitle {*/
-/*        */
-/*        color: var(--font-color);*/
-/*    }*/
-/*}*/
 
 @media screen and (max-width: 600px) {
     .groupOfPartners {
