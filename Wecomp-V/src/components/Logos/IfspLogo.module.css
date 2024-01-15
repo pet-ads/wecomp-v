@@ -1,6 +1,7 @@
 .IFSPLogo {
 
-    width: 15vh;
+    width: auto;
+    max-width: 130px;
     height: auto;
     margin-top: .5vh;
     margin-left: 3vh;

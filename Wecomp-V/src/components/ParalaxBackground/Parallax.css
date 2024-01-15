@@ -18,7 +18,7 @@
     align-items: center;
     perspective: 1px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .parallax__layer {

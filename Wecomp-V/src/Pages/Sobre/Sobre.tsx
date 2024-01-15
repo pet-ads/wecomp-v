@@ -13,13 +13,13 @@ export default function Sobre() {
       </header>
       <Card
         display={"flex"}
-        width={"90vw"}
+        width={{ base: "85vw", md: "50vw", lg: "50vw" }}
         justifySelf={"center"}
         alignSelf={"center"}
         borderRadius={16}
         boxShadow={" 0 4px 8px rgba(0, 0, 0, 0.1)"}
       >
-        <Box display={"flex"} flexDir={"column"}>
+        <Box display={"flex"} flexDir={"column"} mt={10}>
           <Infos />
         </Box>
         <Box>

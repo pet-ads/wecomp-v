@@ -17,8 +17,8 @@ export default function NormalLayout() {
         <div className="parallax_layer_base parallax__layer">
           <Inicio text="V Wecomp" subtitle="Em breve" />
           <Sobre />
-          <Programacao />
           <Parceiros isLandscape={true} />
+          <Programacao />
           <Local isLandscape={true} />
           <Footer isLandscape={true} />
         </div>
