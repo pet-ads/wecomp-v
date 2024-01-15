@@ -1,16 +1,23 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right,
-            rgba(138, 43, 226, 0.65) 2%,
-            rgba(138, 43, 226, 0.3),
-            rgba(106, 90, 205, 0.2) 9%,
-            rgba(106, 90, 205, 0.1),
-            #fff 15%,
-            #fff 85%,
-            rgba(106, 90, 205, 0.1),
-            rgba(106, 90, 205, 0.2) 91%,
-            rgba(138, 43, 226, 0.3),
-            rgba(138, 43, 226, 0.65));
-    height: fit-content;
+            rgba(204, 153, 255, 0.65) 2%,
+            /* Tom de roxo mais claro */
+            rgba(204, 153, 255, 0.3),
+            rgba(164, 149, 235, 0.2) 9%,
+            /* Tom de roxo mais claro */
+            rgba(164, 149, 235, 0.1),
+            rgba(245, 245, 255, 0.5) 15%,
+            /* Tom de roxo mais claro */
+            rgba(245, 245, 255, 0.5) 85%,
+            /* Tom de roxo mais claro */
+            rgba(164, 149, 235, 0.1),
+            rgba(164, 149, 235, 0.2) 91%,
+            /* Tom de roxo mais claro */
+            rgba(204, 153, 255, 0.3),
+            rgba(204, 153, 255, 0.65));
+
+
+    height: 100vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -36,6 +43,7 @@
     right: 0;
     bottom: 0;
     margin-left: 0;
+    height: 100vh;
 }
 
 .scroll-container {

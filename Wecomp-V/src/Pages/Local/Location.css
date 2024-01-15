@@ -3,6 +3,7 @@
 }
 
 .local {
+    margin-top: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,10 +19,12 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 5vh;
+    row-gap: 2vh
 }
 
 .local>h1 {
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 775px) {

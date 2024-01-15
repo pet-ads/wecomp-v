@@ -3,12 +3,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: var(--page-height);
-    margin-top: 40vh;
+    height: 110vh;
 }
 
 .partnersTile {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(164, 149, 235, 0.25) 9%, ;
     width: 70%;
     padding-left: 2%;
     padding-right: 2%;
