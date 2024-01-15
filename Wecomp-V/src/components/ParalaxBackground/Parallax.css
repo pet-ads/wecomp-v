@@ -1,6 +1,6 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right, rgba(29, 221, 154, .65) 2%, rgba(29, 221, 154, .3), rgba(0, 208, 255, .2) 9%, rgba(0, 208, 255, .1), #fff 15%, #fff 85%, rgba(0, 208, 255, .1), rgba(0, 208, 255, .2) 91%, rgba(29, 221, 154, .3), rgba(29, 221, 154, .65));
-    height: 399vh;
+    height: 100vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -18,13 +18,10 @@
     align-items: center;
     perspective: 1px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .parallax__layer {
-    /* position: relative;
-    margin-bottom: -400vh; */
-    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -63,7 +60,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 */
 
 .parallax-image {
-    background-image: url('../../../public/logos/BackgroundPattern.png');
+    background-image: url('/logos/BackgroundPattern.png');
     position: fixed;
     width: 200%;
     height: 200%;
@@ -74,7 +71,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 }
 
 .parallax-image-safari {
-    background-image: url('../../../public/logos/BackgroundPattern.png');
+    background-image: url('/logos/BackgroundPattern.png');
     position: fixed;
     width: 200%;
     height: 200%;
