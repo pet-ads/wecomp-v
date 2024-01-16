@@ -1,8 +1,7 @@
-import LogoIFSP from "../Logos/IFSPLogo";
 import "./DropdownMenu.css";
-import menu from "/images/menu.png";
-import { useState, useRef } from "react";
-
+import menu from "../../../public/images/menu.png";
+import React, { useState, useRef } from "react";
+import LogoIFSP from "../Logos/IFSPLogo";
 function DropdownMenu() {
   const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local"];
   const removeAccents = (str: string) => {
@@ -16,7 +15,6 @@ function DropdownMenu() {
   };
 
   const handleMouseLeave = (event: React.MouseEvent) => {
-    // Verificar se o mouse está fora do dropdown antes de fechar
     if (dropdownRef.current && !dropdownRef.current.contains(event.relatedTarget as Node)) {
       setIsDropdownOpen(false);
     }
@@ -31,13 +29,11 @@ function DropdownMenu() {
         </div>
 
         {isDropdownOpen && (
-          <ul className="dropdown-content">
-            {paths.map((path, index) => (
-              <li key={index}>
-                <a href={`#${removeAccents(path.toLowerCase())}`}>{path}</a>
-              </li>
+          <div className="dropdown-content">
+            {paths.map((path) => (
+              <a href={`#${removeAccents(path.toLowerCase())}`}>{path}</a>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </div>

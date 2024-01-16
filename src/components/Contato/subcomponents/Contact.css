@@ -7,7 +7,7 @@
 }
 
 .contact>.disclaimer {
-    width: 70%;
+    width: 100%;
     max-width: 900px;
     margin: 20px auto;
     font-size: var(--text-font-size);

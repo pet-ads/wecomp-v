@@ -19,7 +19,7 @@ function Contact({ isLandscape }: ContactProps) {
 
   return (
     <div className={`contact ${isLandscape ? "contact-landscape" : ""}`} id="contact">
-      <h2>Contato</h2>
+      <h2>Informações de Contato</h2>
       <p className="disclaimer">
         Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento. Entre em contato conosco
         pelo nosso e-mail oficial!

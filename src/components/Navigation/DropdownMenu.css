@@ -14,7 +14,6 @@
     display: flex;
     width: auto;
     height: 4vh;
-    cursor: pointer;
     padding-right: 10%;
 }
 
@@ -30,10 +29,11 @@
 
 .dropdown-content {
     top: var(--navbar-height);
+    left: 58%;
     display: block;
-    border-radius: 0 .8em .8em .8em;
+    border-radius: .8em .8em 0 .8em;
     position: fixed;
-    background-image: linear-gradient(to left, var(--pallete-dark), var(--pallete-light));
+    background-color: blueviolet;
     min-width: 12em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;

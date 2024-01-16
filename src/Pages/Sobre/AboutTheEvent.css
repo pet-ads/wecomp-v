@@ -1,10 +1,9 @@
 .about-the-event {
-    width: 90vw;
+    width: 100%;
     height: var(--page-height);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
 }
 
 .about-the-event>header h2 {
