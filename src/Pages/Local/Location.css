@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 100%;
     height: var(--page-height);
-    padding-bottom: 10vh;
+    align-content: center;
 }
 
 .locations {
@@ -24,7 +24,7 @@
 
 .local>h1 {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 775px) {
@@ -40,4 +40,10 @@
 .local-landscape {
     height: unset !important;
 
+}
+
+@media screen and (max-height:720px) {
+    .local {
+        padding-top: 3vh;
+    }
 }

@@ -2,19 +2,17 @@
     width: 100%;
     max-width: 100%;
     background-color: blueviolet;
-    height: "auto";
+    height: 8vh;
     display: flex;
     align-items: center;
-    z-index: 50;
 }
 
 .footer>div {
-    row-gap: 2vh;
+    row-gap: .5vh;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
     align-items: center;
-    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -31,7 +29,7 @@
 }
 
 .logoGithub {
-    margin-top: 0.5vh;
+    margin-top: 2vh;
     height: 24px;
 }
 

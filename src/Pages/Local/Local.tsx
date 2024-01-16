@@ -1,5 +1,5 @@
-import LocationFrame from "./subcomponents/LocationFrame";
 import "./Location.css";
+import LocationFrame from "./subcomponents/LocationFrame";
 
 interface ILocationProps {
   isLandscape: boolean;

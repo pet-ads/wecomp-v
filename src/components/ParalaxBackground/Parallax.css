@@ -1,20 +1,24 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right,
-            rgba(204, 153, 255, 0.65) 2%,
-            /* Tom de roxo mais claro */
+            rgba(204, 153, 255, 0.1)9%,
+            /* Extremidade esquerda, mais clara */
             rgba(204, 153, 255, 0.3),
-            rgba(164, 149, 235, 0.2) 9%,
-            /* Tom de roxo mais claro */
-            rgba(164, 149, 235, 0.1),
-            rgba(245, 245, 255, 0.5) 15%,
-            /* Tom de roxo mais claro */
-            rgba(245, 245, 255, 0.5) 85%,
-            /* Tom de roxo mais claro */
-            rgba(164, 149, 235, 0.1),
-            rgba(164, 149, 235, 0.2) 91%,
-            /* Tom de roxo mais claro */
+            rgba(164, 149, 235, 0.7),
+            /* Meio, mais escuro */
+            rgba(164, 149, 235, 0.7),
+            rgba(245, 245, 255, 0.3),
+            /* Extremidade direita, mais clara */
+            rgba(245, 245, 255, 0.3),
+            /* Extremidade direita, mais clara */
+            rgba(164, 149, 235, 0.7),
+            rgba(164, 149, 235, 0.7),
+            /* Meio, mais escuro */
             rgba(204, 153, 255, 0.3),
-            rgba(204, 153, 255, 0.65));
+            rgba(204, 153, 255, 0.1)9%
+            /* Extremidade direita, mais clara */
+        );
+
+
 
 
     height: 100vh;
@@ -30,7 +34,6 @@
 
 .parallax {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     perspective: 1px;
@@ -50,7 +53,7 @@
 }
 
 .parallax_image {
-    height: 100%;
+    height: 100vh;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -78,12 +81,11 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
 .parallax-image {
     background-image: url('/logos/BackgroundPattern.png');
-    position: relative;
-    width: 200%;
-    height: 200%;
-    left: -45%;
-    z-index: 0;
-    transform: scale(1.0);
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    transform: scale(1);
 }
 
 .parallax-image-safari {
@@ -163,5 +165,5 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 }
 
 .parallax_layer_back_landscape {
-    height: 520vh !important;
+    height: 430vh !important;
 }

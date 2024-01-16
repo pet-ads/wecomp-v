@@ -1,8 +1,8 @@
 import "./Event.css";
-
 import PopUpEvent from "./subcomponents/PopEvent";
-import ClassificationLevel from "./subcomponents/ClassificationLevel";
 import EventStatus from "./subcomponents/EventStatus";
+import ClassificationLevel from "./subcomponents/ClassificationLevel";
+
 {
   /*import soldOut from "../images/soldOut.png";*/
 }

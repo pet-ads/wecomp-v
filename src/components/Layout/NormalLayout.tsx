@@ -5,6 +5,8 @@ import Programacao from "../../Pages/Programacao/Programacao";
 import Sobre from "../../Pages/Sobre/Sobre";
 import Footer from "../Footer/Footer";
 import NavBar from "../Navigation/NavBar";
+import Background from "../ParalaxBackground/Backgroun";
+import "../../components/ParalaxBackground/Parallax.css";
 
 interface layoutProps {
   isLandscape: boolean;
@@ -15,13 +17,15 @@ export default function NormalLayout({ isLandscape }: layoutProps) {
     <>
       <NavBar />
       <div className="scroll-container parallax">
-        <div className="parallax_layer_base parallax__layer">
-          <Inicio text="V Wecomp" subText="Em breve..." />
-          <Sobre />
-          <Parceiros isLandscape={isLandscape} />
-          <Programacao />
-          <Local isLandscape={isLandscape} />
-        </div>
+        <Background isLandscape={isLandscape}>
+          <div className="parallax_layer_base parallax__layer">
+            <Inicio text="V Wecomp" subText="Em breve..." />
+            <Sobre />
+            <Programacao />
+            <Parceiros isLandscape={isLandscape} />
+            <Local isLandscape={isLandscape} />
+          </div>
+        </Background>
       </div>
       <Footer isLandscape={isLandscape} />
     </>

@@ -9,8 +9,8 @@ export default function NavButton({ text, link }: NavButtonProps) {
       <Button
         backgroundColor={"blueviolet"}
         color={"#FFFF"}
-        mb={"5px"}
-        mt={"5px"}
+        mb={"10px"}
+        mt={"10px"}
         _hover={{ backgroundColor: "rgba(164, 149, 235)" }}
       >
         {text}

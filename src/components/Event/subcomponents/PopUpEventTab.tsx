@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Tab from "./Tab";
 import "./PopUpEventTab.css";
+import { useState } from "react";
 
 interface PopUpEventTabProps {
   texts: string[];

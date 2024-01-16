@@ -31,11 +31,11 @@
 }
 
 .description-container::-webkit-scrollbar-thumb:hover {
-    background: var(--pallete-light)
+    background: blueviolet
 }
 
 .description-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, var(--pallete-dark), var(--pallete-light));
+    background: blueviolet;
     border-radius: 5px;
 }
 

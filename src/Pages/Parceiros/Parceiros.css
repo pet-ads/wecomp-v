@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     height: var(--page-height);
-    padding-top: 20vh;
+    padding-top: auto;
 }
 
 .partnersTile {
@@ -16,6 +16,13 @@
     padding-bottom: 2%;
     border-radius: 80px;
     align-self: center;
+}
+
+@media screen and (max-height: 720px) {
+
+    .partners {
+        padding-top: 30vh;
+    }
 }
 
 @media screen and (max-width: 1300px) {
