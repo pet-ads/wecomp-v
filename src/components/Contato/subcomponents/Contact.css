@@ -12,7 +12,8 @@
     margin: 20px auto;
     font-size: var(--text-font-size);
     font-weight: var(--text-font-weight);
-    text-align: left;
+    text-align: center;
+    justify-content: left;
 }
 
 .contact>h2 {

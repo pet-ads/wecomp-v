@@ -1,3 +1,4 @@
+import { Card } from "@chakra-ui/react";
 import "./Locationframe.css";
 interface LocationProps {
   name: string;
@@ -6,12 +7,14 @@ interface LocationProps {
 }
 export default function LocationFrame({ name, address, src }: LocationProps) {
   return (
-    <div className="locationFrame">
-      <div>
-        <h3>{name}</h3>
-        <p>{address}</p>
+    <Card backgroundColor={"rgba(164, 149, 235, 0.2)"} borderRadius={16}>
+      <div className="locationFrame">
+        <div>
+          <h3>{name}</h3>
+          <p>{address}</p>
+        </div>
+        <iframe src={src}></iframe>
       </div>
-      <iframe src={src}></iframe>
-    </div>
+    </Card>
   );
 }
