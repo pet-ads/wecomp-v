@@ -1,0 +1,66 @@
+.button {
+    transition: transform 0.2s ease-out;
+    background-image: linear-gradient(to right,
+            var(--grad-1) 0%,
+            var(--grad-2) 11%,
+            var(--grad-3) 22%,
+            var(--grad-4) 33%,
+            var(--grad-3) 44%,
+            var(--grad-2) 55%,
+            var(--grad-1) 66%,
+            var(--grad-2) 77%,
+            var(--grad-3) 88%,
+            var(--grad-4) 100%);
+    background-size: 300%;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.disable {
+    background-color: rgb(202, 202, 202);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: not-allowed;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    animation: gradient 1s;
+    -webkit-animation-name: gradient;
+    animation-name: gradient;
+    animation: gradient 1s ease;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 33%;
+    }
+
+    100% {
+        background-position: 100% 80%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 33%;
+    }
+
+    100% {
+        background-position: 100% 33%;
+    }
+}

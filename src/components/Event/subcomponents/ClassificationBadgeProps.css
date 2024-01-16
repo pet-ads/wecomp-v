@@ -1,0 +1,33 @@
+.badge {
+    width: min-content;
+    height: min-content;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.badge p {
+    margin: 8px;
+    color: white;
+    font-weight: 700;
+}
+
+.badge-livre {
+    background-color: rgb(167, 167, 167);
+}
+
+.badge-basico {
+    background-color: rgb(65, 226, 60);
+}
+
+.badge-intermediario {
+    background-color: rgb(255, 217, 0);
+}
+
+.badge-avancado {
+    background-color: rgb(255, 40, 0);
+}

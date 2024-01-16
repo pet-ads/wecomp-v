@@ -11,4 +11,7 @@ export interface iEvent {
   status: string;
   location: string;
   description: string;
+  bio?: string;
+  vacancies?: number;
+  classification?: string;
 }
