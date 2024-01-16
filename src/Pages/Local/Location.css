@@ -3,13 +3,12 @@
 }
 
 .local {
-    margin-top: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     max-width: 100%;
-    height: calc(var(--page-height) - 7vh);
+    height: var(--page-height);
 }
 
 .locations {

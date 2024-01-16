@@ -3,7 +3,7 @@
     max-width: 100%;
     padding: .5rem 0;
     background-color: blueviolet;
-    height: 14px;
+    height: "auto";
     display: flex;
     align-items: center;
     z-index: 50;

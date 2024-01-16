@@ -4,9 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: var(--page-height);
-    margin-bottom: 10vh;
-
+    min-height: var(--page-height);
 
 }
 
@@ -15,7 +13,7 @@
 }
 
 .bannerImage {
-    width: 73%;
+    width: 50%;
     max-width: 120vh;
     margin: auto;
 }

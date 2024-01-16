@@ -1,13 +1,18 @@
-/*.parallax_layer_back {
+.parallax_layer_back {
     background-image: linear-gradient(to right,
             rgba(204, 153, 255, 0.65) 2%,
+            /* Tom de roxo mais claro */
             rgba(204, 153, 255, 0.3),
             rgba(164, 149, 235, 0.2) 9%,
+            /* Tom de roxo mais claro */
             rgba(164, 149, 235, 0.1),
             rgba(245, 245, 255, 0.5) 15%,
+            /* Tom de roxo mais claro */
             rgba(245, 245, 255, 0.5) 85%,
+            /* Tom de roxo mais claro */
             rgba(164, 149, 235, 0.1),
             rgba(164, 149, 235, 0.2) 91%,
+            /* Tom de roxo mais claro */
             rgba(204, 153, 255, 0.3),
             rgba(204, 153, 255, 0.65));
 
@@ -17,7 +22,7 @@
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     width: 100vw;
-}*/
+}
 
 .parallax_layer_base {
     transform: translateZ(0);
