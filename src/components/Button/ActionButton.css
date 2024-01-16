@@ -1,16 +1,6 @@
 .button {
     transition: transform 0.2s ease-out;
-    background-image: linear-gradient(to right,
-            var(--grad-1) 0%,
-            var(--grad-2) 11%,
-            var(--grad-3) 22%,
-            var(--grad-4) 33%,
-            var(--grad-3) 44%,
-            var(--grad-2) 55%,
-            var(--grad-1) 66%,
-            var(--grad-2) 77%,
-            var(--grad-3) 88%,
-            var(--grad-4) 100%);
+    background-color: blueviolet;
     background-size: 300%;
     border: none;
     color: white;
@@ -25,7 +15,7 @@
 }
 
 .disable {
-    background-color: rgb(202, 202, 202);
+    background-color: rgba(164, 149, 235);
     border: none;
     color: white;
     padding: 12px 28px;

@@ -1,4 +1,4 @@
-import "../style/components/ClassificationBadge.css";
+import "./ClassificationBadge.css";
 
 interface classificationBadgeProps {
   classification?: string;

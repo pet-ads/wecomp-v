@@ -20,10 +20,12 @@ export default function Programacao() {
             time={event.time}
             classification={event.classification}
             id={0}
-            link={""}
-            active={false}
-            location={""}
-            description={""}
+            link={event.link}
+            active={event.active}
+            location={event.location}
+            description={event.description}
+            vacancies={event.vacancies}
+            bio={event.bio}
           />
         ))}
       </Carousel>

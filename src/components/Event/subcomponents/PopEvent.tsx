@@ -2,7 +2,7 @@ import ReactModal from "react-modal";
 import { useState } from "react";
 import ActionButton from "../../Button/ActionButton.js";
 import ClassificationBadge from "./ClassificationBadge";
-import "../style/components/PopUpEvent.css";
+import "./PopUpEvnt.css";
 import PopUpEventTab from "./PopUpEventTab.js";
 import { iEvent } from "../../../Type/EventType.js";
 
@@ -10,7 +10,7 @@ interface PopUpEventPros extends iEvent {
   subTitle: string;
 }
 
-function PopUpEvent({
+export default function PopUpEvent({
   name,
   link,
   active,
@@ -62,5 +62,3 @@ function PopUpEvent({
     </div>
   );
 }
-
-export default PopUpEvent;

@@ -1,7 +1,6 @@
 import "./Event.css";
-{
-  /*import PopUpEvent from "./subcomponents/PopEvent";*/
-}
+
+import PopUpEvent from "./subcomponents/PopEvent";
 import ClassificationLevel from "./subcomponents/ClassificationLevel";
 import EventStatus from "./subcomponents/EventStatus";
 {
@@ -9,7 +8,22 @@ import EventStatus from "./subcomponents/EventStatus";
 }
 import { iEvent } from "../../Type/EventType";
 
-function Event({ name, image, imageDesc, status, classification, author, date, time }: iEvent) {
+function Event({
+  link,
+  location,
+  description,
+  vacancies,
+  active,
+  name,
+  image,
+  imageDesc,
+  status,
+  classification,
+  author,
+  date,
+  time,
+  bio,
+}: iEvent) {
   return (
     <div className="event">
       <h2 className="eventTitle">{name}</h2>
@@ -25,7 +39,24 @@ function Event({ name, image, imageDesc, status, classification, author, date, t
         <p className="eventDate">{date}</p>
         <p className="eventTime">{time}</p>
       </div>
-      {/*<PopUpEvent event={event} />*/}
+      <PopUpEvent
+        name={name}
+        link={link}
+        active={active}
+        vacancies={vacancies}
+        classification={classification}
+        author={author}
+        location={location}
+        description={description}
+        bio={bio}
+        date={date}
+        time={time}
+        subTitle={""}
+        id={0}
+        image={""}
+        imageDesc={""}
+        status={""}
+      />
     </div>
   );
 }
