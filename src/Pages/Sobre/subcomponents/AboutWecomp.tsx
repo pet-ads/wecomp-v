@@ -1,4 +1,4 @@
-import NavButton from "../../../components/Button/Button";
+import NavButton from "../../../components/Button/NavButton";
 import "../AboutTheEvent.css";
 
 export default function Infos() {
