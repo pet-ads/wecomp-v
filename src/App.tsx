@@ -1,7 +1,8 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import NormalLayout from "./components/Layout/NormalLayout";
-
 import { isIOS, isMacOs, useMobileOrientation, isMobile } from "react-device-detect";
+import "./App.css";
+import "./components/Background/Parallax.css";
 
 {
   /*import SafariLayout from "../components/SafariLayout";*/

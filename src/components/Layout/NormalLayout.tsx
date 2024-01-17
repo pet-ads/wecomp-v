@@ -3,10 +3,10 @@ import Local from "../../Pages/Local/Local";
 import Parceiros from "../../Pages/Parceiros/Parceiros";
 import Programacao from "../../Pages/Programacao/Programacao";
 import Sobre from "../../Pages/Sobre/Sobre";
+import Background from "../Background/Background";
 import Footer from "../Footer/Footer";
 import NavBar from "../Navigation/NavBar";
-import Background from "../ParalaxBackground/Backgroun";
-import "../../components/ParalaxBackground/Parallax.css";
+import "../Background/Parallax.css";
 
 interface layoutProps {
   isLandscape: boolean;
@@ -17,17 +17,16 @@ export default function NormalLayout({ isLandscape }: layoutProps) {
     <>
       <NavBar />
       <div className="scroll-container parallax">
-        <Background isLandscape={isLandscape}>
-          <div className="parallax_layer_base parallax__layer">
-            <Inicio text="V Wecomp" subText="Em breve..." />
-            <Sobre />
-            <Programacao />
-            <Parceiros isLandscape={isLandscape} />
-            <Local isLandscape={isLandscape} />
-          </div>
-        </Background>
+        <Background isLandscape={isLandscape} />
+        <div className="parallax_layer_base parallax__layer">
+          <Inicio text="V Wecomp" subText="Em breve..." />
+          <Sobre />
+          <Parceiros isLandscape={isLandscape} />
+          <Programacao />
+          <Local isLandscape={isLandscape} />
+          <Footer isLandscape={isLandscape} />
+        </div>
       </div>
-      <Footer isLandscape={isLandscape} />
     </>
   );
 }

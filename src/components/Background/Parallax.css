@@ -1,27 +1,15 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right,
-            rgba(204, 153, 255, 0.1)9%,
-            /* Extremidade esquerda, mais clara */
+            rgba(204, 153, 255, 0.65), rgba(204, 153, 255, 0.3),
+            rgba(164, 149, 235, 0.2) 9%,
+            rgba(164, 149, 235, 0.1),
+            rgba(245, 245, 255, 0.5) 15%,
+            rgba(245, 245, 255, 0.5) 85%,
+            rgba(164, 149, 235, 0.1),
+            rgba(164, 149, 235, 0.2) 91%,
             rgba(204, 153, 255, 0.3),
-            rgba(164, 149, 235, 0.7),
-            /* Meio, mais escuro */
-            rgba(164, 149, 235, 0.7),
-            rgba(245, 245, 255, 0.3),
-            /* Extremidade direita, mais clara */
-            rgba(245, 245, 255, 0.3),
-            /* Extremidade direita, mais clara */
-            rgba(164, 149, 235, 0.7),
-            rgba(164, 149, 235, 0.7),
-            /* Meio, mais escuro */
-            rgba(204, 153, 255, 0.3),
-            rgba(204, 153, 255, 0.1)9%
-            /* Extremidade direita, mais clara */
-        );
-
-
-
-
-    height: 100vh;
+            rgba(204, 153, 255, 0.65));
+    height: 399vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -34,6 +22,7 @@
 
 .parallax {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     perspective: 1px;
@@ -42,6 +31,7 @@
 }
 
 .parallax__layer {
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -53,7 +43,7 @@
 }
 
 .parallax_image {
-    height: 100vh;
+    height: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -61,7 +51,18 @@
 
 .parallax-safari {
     min-height: 100vh;
-    background-image: linear-gradient(to right, rgba(29, 221, 154, .65) 2%, rgba(29, 221, 154, .3), rgba(0, 208, 255, .2) 9%, rgba(0, 208, 255, .1), #fff 15%, #fff 85%, rgba(0, 208, 255, .1), rgba(0, 208, 255, .2) 91%, rgba(29, 221, 154, .3), rgba(29, 221, 154, .65));
+    background-image: linear-gradient(to right,
+            rgba(204, 153, 255, 0.4) 2%,
+            rgba(204, 153, 255, 0.2),
+            rgba(164, 149, 235, 0.1) 9%,
+            rgba(164, 149, 235, 0.03),
+            rgba(245, 245, 255, 0.35) 15%,
+            rgba(245, 245, 255, 0.35) 85%,
+            rgba(164, 149, 235, 0.03),
+            rgba(164, 149, 235, 0.1) 91%,
+            rgba(204, 153, 255, 0.2),
+            rgba(204, 153, 255, 0.4));
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -80,16 +81,18 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 */
 
 .parallax-image {
-    background-image: url('/logos/BackgroundPattern.png');
+    background-image: url('../../../public/logos/BackgroundPattern.png');
     position: fixed;
-    width: 100vw;
-    height: 100%;
-    z-index: -1;
-    transform: scale(1);
+    width: 200%;
+    height: 200%;
+    top: -100%;
+    left: -45%;
+    z-index: 0;
+    transform: scale(1.0);
 }
 
 .parallax-image-safari {
-    background-image: url('/logos/BackgroundPattern.png');
+    background-image: url('../../../public/logos/BackgroundPattern.png');
     position: fixed;
     width: 200%;
     height: 200%;
@@ -147,7 +150,6 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 }
 
-
 @media screen and (max-width: 500px) {
 
     .parallax-image {
@@ -165,5 +167,5 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 }
 
 .parallax_layer_back_landscape {
-    height: 430vh !important;
+    height: 520vh !important;
 }
