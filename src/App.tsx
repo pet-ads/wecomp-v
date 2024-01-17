@@ -1,15 +1,11 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import NormalLayout from "./components/Layout/NormalLayout";
-import { isIOS, isMacOs, useMobileOrientation, isMobile } from "react-device-detect";
 import "./App.css";
 import "./components/Background/Parallax.css";
+import { ChakraProvider } from "@chakra-ui/react";
+import NormalLayout from "./components/Layout/NormalLayout";
 import SafariLayout from "./components/Layout/SafariLatyout";
+import { isIOS, isMacOs, useMobileOrientation, isMobile } from "react-device-detect";
 
-{
-  /*import SafariLayout from "../components/SafariLayout";*/
-}
-
-function App() {
+export default function App() {
   const orientation = useMobileOrientation();
 
   if (isIOS || isMacOs) {
@@ -30,5 +26,3 @@ function App() {
     </ChakraProvider>
   );
 }
-
-export default App;

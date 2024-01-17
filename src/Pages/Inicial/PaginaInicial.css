@@ -4,31 +4,32 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: var(--page-height);
+    height: var(--page-height);
+    margin: auto;
 
 }
 
-.bannerContainer {
+.banner-container {
     width: 100%;
 }
 
-.bannerImage {
-    width: 50%;
+.banner-image {
+    width: 73%;
     max-width: 120vh;
     margin: auto;
 }
 
-.bannerTitle {
-    margin: auto;
+.banner-title {
+    margin: 30px;
     font-size: var(--subtitle-font-size);
 }
 
-.bannerText {
+.banner-text {
     font-size: var(--text-font-size);
     font-weight: 400;
 }
 
-.enrollmentPeriod {
+.enrollment-period {
     margin-top: 40px;
     font-size: 30px;
     animation: pulse 0.7s infinite;
@@ -58,32 +59,38 @@
 }
 
 
+.logoIFSP {
+    width: 220px;
+    margin: 15px;
+}
+
+
 
 
 @media screen and (max-width: 670px) {
-    .bannerTitle {
+    .banner-title {
         font-size: var(--mobile-title-font-size);
     }
 
-    .bannerText {
+    .banner-text {
         font-size: var(--mobile-text-font-size);
     }
 
-    .enrollmentPeriod {
+    .enrollment-period {
         font-size: 23px;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .bannerTitle {
+    .banner-title {
         font-size: 20px;
     }
 
-    .bannerText {
+    .banner-text {
         font-size: 15px;
     }
 
-    .enrollmentPeriod {
+    .enrollment-period {
         font-size: 20px;
     }
 }
