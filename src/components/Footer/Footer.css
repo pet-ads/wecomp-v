@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 100%;
     background-color: blueviolet;
-    height: 10vw;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -11,7 +11,7 @@
     row-gap: .5vh;
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-wrap: nowrap;

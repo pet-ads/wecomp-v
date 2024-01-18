@@ -40,3 +40,14 @@
 .partners-landscape {
     height: unset !important;
 }
+
+
+@media screen and (max-width: 300px) {
+    .partners {
+        margin-bottom: 20vh;
+    }
+
+    .partnersTile {
+        width: 80%;
+    }
+}

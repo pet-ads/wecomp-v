@@ -10,15 +10,14 @@ export default function LocationFrame({ name, address, src }: LocationProps) {
     <Card
       backgroundColor={"rgba(164, 149, 235, 1)"}
       borderRadius={16}
-      maxH={"fit-content"}
-      maxW={"fit-content"}
+      w={{ base: "80%", md: "85%", lg: "fit-content" }}
       display={"flex"}
       alignContent={"center"}
       justifyContent={"center"}
       color={"white"}
     >
       <div className="locationFrame">
-        <div>
+        <div className="text-content">
           <h3>{name}</h3>
           <p>{address}</p>
         </div>

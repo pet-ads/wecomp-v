@@ -81,3 +81,15 @@ iframe {
         height: 130px;
     }
 }
+
+
+@media screen and (max-width: 400px) {
+    .locationFrame {
+        font-size: 12px;
+        padding-top: 2%;
+        width: 80%;
+        align-self: center;
+        column-gap: 5px;
+    }
+
+}

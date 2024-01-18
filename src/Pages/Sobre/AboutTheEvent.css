@@ -61,7 +61,6 @@
 
 @media screen and (max-width: 300px) {
     .about-the-event {
-        margin-left: 10%;
         margin-top: var(--page-height);
         margin-bottom: var(--page-height);
     }

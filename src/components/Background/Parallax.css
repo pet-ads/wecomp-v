@@ -162,10 +162,17 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 
     .parallax_layer_back {
-        height: 420vh;
+        height: 520vh;
     }
 }
 
 .parallax_layer_back_landscape {
     height: 520vh !important;
+}
+
+
+@media screen and (max-width: 300px) {
+    .banner {
+        margin-left: 12%;
+    }
 }

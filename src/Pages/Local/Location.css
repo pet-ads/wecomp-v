@@ -47,3 +47,9 @@
         padding-top: 3vh;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .locations {
+        margin-bottom: 10vh;
+    }
+}
