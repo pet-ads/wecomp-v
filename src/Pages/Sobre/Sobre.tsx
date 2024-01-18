@@ -6,7 +6,7 @@ import Contact from "../../components/Contato/ContatoInfos";
 export default function Sobre() {
   return (
     <section id="informacoes" className="about-the-event">
-      <Card w={"70vw"} margin={"auto"} borderRadius={16} backgroundColor={"rgba(164, 149, 235, .75)"}>
+      <Card w={"70vw"} margin={"auto"} borderRadius={16} backgroundColor={"rgba(164, 149, 235, .75)"} color={"white"}>
         <Box display={"flex"} flexDir={"column"} mt={5}>
           <Infos />
           <Contact isLandscape={true} />

@@ -38,3 +38,11 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media screen and (max-width: 770px) {
+    .navbarItem {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
