@@ -36,10 +36,17 @@
     font-size: var(--title-font-size);
 }
 
+@media screen and (max-height:730px) {
+    .about-the-event {
+        margin-top: 30px;
+    }
+}
+
 
 @media screen and (max-width: 390px) {
     .about-the-event {
-        margin-bottom: 50px;
+        margin-top: 50vh;
+        margin-bottom: 50vh
     }
 
     .event-description {
@@ -50,4 +57,12 @@
         padding: 20px 0;
     }
 
+}
+
+@media screen and (max-width: 300px) {
+    .about-the-event {
+        margin-left: 10%;
+        margin-top: var(--page-height);
+        margin-bottom: var(--page-height);
+    }
 }

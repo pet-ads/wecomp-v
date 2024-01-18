@@ -5,7 +5,6 @@
     height: var(--page-height);
     justify-content: center;
     align-items: center;
-    padding-top: 25vh;
 }
 
 .scheduleTitle {
