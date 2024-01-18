@@ -10,7 +10,8 @@ export default function LocationFrame({ name, address, src }: LocationProps) {
     <Card
       backgroundColor={"rgba(164, 149, 235, 1)"}
       borderRadius={16}
-      w={{ base: "80%", md: "85%", lg: "fit-content" }}
+      w={{ base: "85vw", md: "45%", lg: "fit-content" }}
+      h={"auto"}
       display={"flex"}
       alignContent={"center"}
       justifyContent={"center"}

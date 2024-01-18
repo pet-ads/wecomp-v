@@ -18,7 +18,7 @@ export default function GroupOfPartners({ partners, text, isLandscape }: GroupOf
   return (
     <>
       <div className="partnersTitleContainer">
-        <h2 className="partnersTitle">{text}</h2>
+        <h1 className="partnersTitle">{text}</h1>
       </div>
       <div className="groupOfPartners">
         {partners.map((partner) => (
