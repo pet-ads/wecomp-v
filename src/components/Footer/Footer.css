@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 100%;
     background-color: blueviolet;
-    height: 8vh;
+    height: 10vw;
     display: flex;
     align-items: center;
 }
@@ -14,8 +14,9 @@
     width: 80%;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
+    height: 80%;
 }
 
 .footer_text {
@@ -50,7 +51,7 @@
 
 @media screen and (max-width: 965px) {
     .footer {
-        height: 20vh;
+        height: auto;
     }
 }
 
