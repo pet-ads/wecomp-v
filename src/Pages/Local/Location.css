@@ -54,3 +54,21 @@
         margin-bottom: 10vh;
     }
 }
+
+@media screen and (max-width: 260px) {
+    .local {
+        margin-top: 200vh;
+        margin-bottom: 50vh;
+        margin-left: 4%;
+    }
+
+    .text-content {
+        margin-left: 10%;
+    }
+
+    iframe {
+        position: relative;
+        margin-left: 4.5%;
+
+    }
+}

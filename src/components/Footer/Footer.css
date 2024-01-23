@@ -73,3 +73,15 @@
 .footer-landscape {
     height: unset !important;
 }
+
+
+@media screen and (max-width:260px) {
+    .footer {
+        width: 110vw;
+    }
+
+    .footer>div {
+        margin-left: 20%;
+    }
+
+}

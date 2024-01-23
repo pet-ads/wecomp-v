@@ -176,3 +176,9 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
         margin-left: 12%;
     }
 }
+
+@media screen and (max-width:260px) {
+    .parallax_layer_back {
+        height: 1040vh;
+    }
+}

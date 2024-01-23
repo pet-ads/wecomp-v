@@ -65,3 +65,13 @@
         margin-bottom: var(--page-height);
     }
 }
+
+@media screen and (max-width:260px) {
+
+    .about-the-event {
+
+        margin-left: 4%;
+
+    }
+
+}

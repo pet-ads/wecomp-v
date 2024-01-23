@@ -94,3 +94,13 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width:260px) {
+
+    .banner {
+        margin-bottom: 200vh;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+}
