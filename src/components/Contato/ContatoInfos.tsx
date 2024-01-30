@@ -35,15 +35,6 @@ function Contact({ isLandscape }: ContactProps) {
             image={logoInstagram}
           ></ClickableImage>
         </div>
-        <div className="facebook">
-          <ClickableImage
-            className={"socialMediaLogo"}
-            link={linkFacebook}
-            alt="Logo da Rede Social Facebook"
-            text="@wecompifsp"
-            image={logoFacebook}
-          ></ClickableImage>
-        </div>
         <div className="email">
           <ClickableImage
             className="socialMediaLogo"
@@ -52,6 +43,15 @@ function Contact({ isLandscape }: ContactProps) {
             text="wecomp.scl@ifsp.edu.br"
             image={logoEmail}
           />
+        </div>
+        <div className="facebook">
+          <ClickableImage
+            className={"socialMediaLogo"}
+            link={linkFacebook}
+            alt="Logo da Rede Social Facebook"
+            text="@wecompifsp"
+            image={logoFacebook}
+          ></ClickableImage>
         </div>
       </div>
     </div>

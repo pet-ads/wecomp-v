@@ -10,18 +10,8 @@
 }
 
 :root {
-    --background-theme: #00c7c780;
-    --pallete-dark: #00D1FF;
-    --pallete-mid-dark: #569DAA;
-    --pallete-mid-light: #87CBB9;
-    --pallete-light: #1fdd94;
     --main-font: 'Montserrat', sans-serif;
     --font-color: rgb(32, 32, 32);
-
-    --grad-1: #2ed9ff;
-    --grad-2: #00d9eb;
-    --grad-3: #00ddc6;
-    --grad-4: var(--pallete-light);
 
     --title-font-size: 1.6rem;
     --subtitle-font-size: 1.4rem;
@@ -32,13 +22,4 @@
     --page-height: 100vh;
     --site-height: 564vh;
     --navbar-height: 50px;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, var(--pallete-dark), var(--pallete-light));
-    border-radius: 7px;
-}
-
-.scroll-container::-webkit-scrollbar-corner {
-    size: 0;
 }

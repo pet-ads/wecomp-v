@@ -58,9 +58,11 @@
 .socialMedia {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
     column-gap: 50px;
     margin: 20px;
+
 }
 
 .socialMediaLogo {

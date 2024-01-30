@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     height: var(--page-height);
+    margin-bottom: 10em;
 }
 
 .partnersTile {
@@ -15,6 +16,10 @@
     padding-bottom: 2%;
     border-radius: 80px;
     align-self: center;
+}
+
+.partnersTitle {
+    margin-top: 10%;
 }
 
 @media screen and (max-height: 720px) {

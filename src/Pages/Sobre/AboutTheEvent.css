@@ -30,7 +30,8 @@
 }
 
 .event-description>h3 {
-    margin: 0 0 .5em;
+    margin: 0 0 1em;
+    text-align: center;
 
     font-weight: light;
     font-size: var(--title-font-size);
