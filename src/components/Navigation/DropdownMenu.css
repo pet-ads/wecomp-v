@@ -33,7 +33,7 @@
     display: block;
     border-radius: .8em .8em 0 .8em;
     position: fixed;
-    background-color: rgba(164, 149, 235, 1.5);
+    background-color: blueviolet;
     min-width: 12em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;

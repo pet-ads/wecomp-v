@@ -1,5 +1,5 @@
 import "./DropdownMenu.css";
-import menu from "../../../public/images/menu.png";
+import menu from "/images/menu.png";
 import React, { useState, useRef } from "react";
 import LogoIFSP from "../Logos/IFSPLogo";
 function DropdownMenu() {
