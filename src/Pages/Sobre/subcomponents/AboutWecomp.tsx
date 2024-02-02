@@ -15,7 +15,7 @@ export default function Infos() {
         </p>
       </div>
       <div>
-        <NavButton link="https://wecomp.vercel.app" text="Veja a edição anterior" />
+        <NavButton link="http://petads.paginas.scl.ifsp.edu.br" text="Veja mais" />
       </div>
     </>
   );

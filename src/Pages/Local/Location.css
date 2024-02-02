@@ -10,6 +10,7 @@
     max-width: 100%;
     height: var(--page-height);
     align-content: center;
+    margin-bottom: 10vh;
 }
 
 .locations {

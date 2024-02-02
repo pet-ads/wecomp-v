@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "instagram",
+        "link": "https://www.instagram.com/wecompifsp/",
+        "alt": "Logo da Rede Social Instagram",
+        "text": "@wecompifsp",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+    },
+    {
+        "id": 2,
+        "name": "email",
+        "link": "mailto:wecomp.scl@ifsp.edu.br?subject=Contato via Site da Wecomp",
+        "alt": "Logo do E-mail Oficial",
+        "text": "wecomp.scl@ifsp.edu.br",
+        "image": "https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
+    },
+    {
+        "id": 3,
+        "name": "facebook",
+        "link": "https://web.facebook.com/wecompifsp",
+        "alt": "Logo da Rede Social Facebook",
+        "text": "@wecompifsp",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
+    }
+]
