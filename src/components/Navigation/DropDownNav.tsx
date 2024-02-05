@@ -3,7 +3,7 @@ import menu from "/images/menu.png";
 import React, { useState, useRef } from "react";
 import LogoIFSP from "../Logos/IFSPLogo";
 function DropdownMenu() {
-  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local"];
+  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Retrospectiva"];
   const removeAccents = (str: string) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   };

@@ -5,7 +5,7 @@ import eventosAnteriores from "../../../public/Data/anteriores.json";
 
 export default function Preview() {
   return (
-    <div id="eventos%20anteriores" className="eventos-anteriores">
+    <div id="retrospectiva" className="eventos-anteriores">
       <h1> Eventos anteriores </h1>
       <div className="container">
         <Carousel>
