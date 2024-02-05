@@ -1,0 +1,87 @@
+.eventos-anteriores {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: var(--page-height);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+.eventos-anteriores h1 {
+    color: var(--font-color);
+    font-size: var(--title-font-size);
+    padding-bottom: 50px;
+}
+
+.edicao {
+    width: 220px;
+}
+
+.edicaoBanner {
+    width: 240px;
+    height: 250px;
+    position: relative;
+}
+
+.edicaoImage {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+}
+
+.edicaoName {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--font-color);
+    margin: 10px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edicaoName:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width : 400px) {
+
+    .edicaoBanner {
+        width: 184px;
+        height: 210px;
+    }
+
+    .edicao {
+        width: 184px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .edicaoBanner {
+        width: 175px;
+        height: 199px;
+    }
+
+    .edicao {
+        width: 175px;
+    }
+
+    .eventos-anteriores {
+        margin-top: 100vh;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-height : 680px) {
+
+    .edicaoAuthor {
+        font-size: 16px;
+        margin: 18px;
+        height: 70px;
+    }
+}

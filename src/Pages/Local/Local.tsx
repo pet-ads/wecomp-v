@@ -7,7 +7,7 @@ interface ILocationProps {
 export default function Local({ isLandscape }: ILocationProps) {
   return (
     <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
-      <h1 className="title">Locais do Evento: </h1>
+      <h1 className="title">Locais do Evento </h1>
       <div className="locations">
         <LocationFrame
           address="Rua Aquibadan, 1 - Centro"

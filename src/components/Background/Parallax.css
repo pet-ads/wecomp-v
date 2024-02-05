@@ -9,7 +9,7 @@
             rgba(164, 149, 235, 0.2) 91%,
             rgba(204, 153, 255, 0.3),
             rgba(204, 153, 255, 0.65));
-    height: 399vh;
+    height: 499vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -162,12 +162,12 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 
     .parallax_layer_back {
-        height: 520vh;
+        height: 620vh;
     }
 }
 
 .parallax_layer_back_landscape {
-    height: 520vh !important;
+    height: 620vh !important;
 }
 
 
@@ -178,7 +178,8 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 }
 
 @media screen and (max-width:260px) {
+
     .parallax_layer_back {
-        height: 1040vh;
+        height: 2040vh;
     }
 }

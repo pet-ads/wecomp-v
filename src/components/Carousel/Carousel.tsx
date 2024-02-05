@@ -1,6 +1,6 @@
 import "./Carousel.css";
-import React, { useState, useEffect, ReactNode, CSSProperties } from "react";
 import Arrow from "./subcomponents/Arrow";
+import React, { useState, useEffect, ReactNode, CSSProperties } from "react";
 
 interface CarouselProps {
   children: ReactNode[];
