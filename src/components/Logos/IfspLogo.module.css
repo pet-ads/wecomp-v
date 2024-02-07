@@ -1,9 +1,7 @@
 .IFSPLogo {
-
-    width: auto;
-    max-width: 130px;
+    max-width: 180px;
     height: auto;
-    margin-top: .5vh;
+    margin-top: 1vh;
     margin-left: 1.5vh;
     position: relative;
 }
@@ -11,4 +9,20 @@
 .IFSPLogo:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .IFSPLogo {
+        max-width: 150px;
+        margin-top: .6vh;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .IFSPLogo {
+        max-width: 130px;
+        margin-top: .5vh;
+    }
 }

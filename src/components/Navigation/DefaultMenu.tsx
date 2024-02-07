@@ -1,5 +1,5 @@
-import LogoIFSP from "../Logos/IFSPLogo";
 import styles from "./Nav.module.css";
+import LogoIFSP from "../Logos/IFSPLogo";
 
 export default function DefaultMenu() {
   const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Retrospectiva"];
