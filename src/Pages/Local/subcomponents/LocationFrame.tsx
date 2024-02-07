@@ -16,6 +16,7 @@ export default function LocationFrame({ name, address, src }: LocationProps) {
       alignContent={"center"}
       justifyContent={"center"}
       color={"white"}
+      mt={50}
     >
       <div className="locationFrame">
         <div className="text-content">

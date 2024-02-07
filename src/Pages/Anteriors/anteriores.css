@@ -13,6 +13,7 @@
     font-size: var(--title-font-size);
     padding-bottom: 50px;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .edicao {
