@@ -31,10 +31,6 @@
 }
 
 
-@media screen and (max-width: 830px) {
-    .locations {}
-}
-
 @media screen and (max-width: 775px) {
     .local {
         height: calc(var(--page-height) - 20vh);
