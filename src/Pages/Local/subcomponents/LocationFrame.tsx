@@ -1,5 +1,5 @@
-import { Card } from "@chakra-ui/react";
 import "./Locationframe.css";
+import { Card } from "@chakra-ui/react";
 interface LocationProps {
   name: string;
   address: string;
@@ -20,9 +20,12 @@ export default function LocationFrame({ name, address, src }: LocationProps) {
       <div className="locationFrame">
         <div className="text-content">
           <h3>{name}</h3>
-          <p>{address}</p>
         </div>
         <iframe src={src}></iframe>
+      </div>{" "}
+      <div className="text-content">
+        {" "}
+        <p>{address}</p>
       </div>
     </Card>
   );

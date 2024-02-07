@@ -8,16 +8,19 @@
     margin-right: 40px;
 }
 
-.locationFrame>h3 {
-    font-size: var(--subtitle-font-size);
-    font-weight: bold;
+.text-content>h3 {
+    font-size: 20px;
+
     padding-bottom: 5px;
+    padding-top: 5px;
     text-align: center;
 }
 
 
-.locationFrame>p {
-    text-align: left;
+.text-content>p {
+    text-align: center;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 iframe {
@@ -27,7 +30,8 @@ iframe {
     border-style: solid;
     border-color: rgb(202, 202, 202);
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    margin-top: 5%;
     bottom: 0;
     left: 0;
     margin-bottom: 10px;
@@ -79,6 +83,7 @@ iframe {
     }
 
     iframe {
+        margin-top: 10%;
         height: 130px;
     }
 }

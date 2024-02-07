@@ -4,7 +4,7 @@ import { useState } from "react";
 
 interface PopUpEventTabProps {
   texts: string[];
-  descriptions: string[] | string;
+  descriptions: string[];
 }
 
 function PopUpEventTab({ texts, descriptions }: PopUpEventTabProps) {
