@@ -18,7 +18,7 @@
 .popUpOverlay {
     position: fixed;
     inset: 0px;
-    background-color: rgba(164, 149, 235);
+    background-color: rgba(164, 149, 235, 0.6);
 }
 
 .popUpDescription {
