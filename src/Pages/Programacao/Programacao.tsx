@@ -1,7 +1,7 @@
 import "./Programacao.css";
+import Event from "../../components/Event/Event";
 import events from "../../../public/Data/events.json";
 import Carousel from "../../components/Carousel/Carousel";
-import Event from "../../components/Event/Event";
 
 export default function Programacao() {
   return (

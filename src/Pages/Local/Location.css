@@ -1,5 +1,6 @@
 .title {
     font-size: var(--subtitle-font-size);
+    font-weight: bold;
 }
 
 .local {

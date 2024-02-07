@@ -6,12 +6,7 @@
     justify-content: center;
 }
 
-.about-the-event>header h2 {
-    margin: 0 0 .5em;
 
-    font-weight: light;
-    font-size: var(--title-font-size);
-}
 
 .about-the-event>.section-content {
     padding: 40px 0;

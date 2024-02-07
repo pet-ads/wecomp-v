@@ -12,6 +12,7 @@
     color: var(--font-color);
     font-size: var(--title-font-size);
     padding-bottom: 50px;
+    font-weight: bold;
 }
 
 .edicao {
