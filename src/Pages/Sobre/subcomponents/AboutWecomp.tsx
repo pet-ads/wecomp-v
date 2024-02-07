@@ -1,5 +1,4 @@
 import "../AboutTheEvent.css";
-import NavButton from "../../../components/Button/NavButton";
 
 export default function Infos() {
   return (
@@ -13,9 +12,6 @@ export default function Infos() {
           que visam reduzir a distância entre a teoria e a prática, ensinar tecnologias novas e promover o ingresso dos
           participantes no mercado de trabalho.
         </p>
-      </div>
-      <div>
-        <NavButton link="http://petads.paginas.scl.ifsp.edu.br" text="Veja mais" />
       </div>
     </>
   );
