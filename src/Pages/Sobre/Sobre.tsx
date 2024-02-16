@@ -1,5 +1,5 @@
-import { Box, Card } from "@chakra-ui/react";
 import "./AboutTheEvent.css";
+import { Box, Card } from "@chakra-ui/react";
 import Infos from "./subcomponents/AboutWecomp";
 import Contact from "../../components/Contato/ContatoInfos";
 

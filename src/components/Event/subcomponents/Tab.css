@@ -3,7 +3,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-size: --title-font-size;
+    font-size: var(--text-font-size);
     font-weight: 600;
     border-radius: 10px 10px 0 0;
 }

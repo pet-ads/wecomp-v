@@ -7,7 +7,7 @@ interface PopUpEventTabProps {
   descriptions: string[];
 }
 
-function PopUpEventTab({ texts, descriptions }: PopUpEventTabProps) {
+export default function PopUpEventTab({ texts, descriptions }: PopUpEventTabProps) {
   const [text, setText] = useState(descriptions[0]);
   const [selectedTab, setSelectedTab] = useState(0);
 
@@ -37,5 +37,3 @@ function PopUpEventTab({ texts, descriptions }: PopUpEventTabProps) {
     </div>
   );
 }
-
-export default PopUpEventTab;
