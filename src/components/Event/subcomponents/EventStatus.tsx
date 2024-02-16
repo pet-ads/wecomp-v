@@ -7,7 +7,7 @@ function EventStatus({ status }: EventStatusI) {
   let status_color;
   switch (status) {
     case "ESGOTOU!":
-      status_color = "#CD2C2C";
+      status_color = "#931f21";
       break;
     case "ÚLTIMAS VAGAS!":
       status_color = "#FF9900";
