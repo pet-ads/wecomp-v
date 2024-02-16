@@ -1,5 +1,6 @@
-import Partner from "./Partner";
 import "./GroupOfPartners.css";
+import Partner from "./Partner";
+
 interface IPartner {
   id: string;
   src: string;

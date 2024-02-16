@@ -6,6 +6,11 @@
     max-height: auto;
 }
 
+.partnerImage img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .partnerImage {
     width: 140px;
     height: 140px;
