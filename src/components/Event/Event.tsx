@@ -1,14 +1,10 @@
 import "./Event.css";
+import { iEvent } from "../../Type/EventType";
 import PopUpEvent from "./subcomponents/PopEvent";
 import EventStatus from "./subcomponents/EventStatus";
 import ClassificationLevel from "./subcomponents/ClassificationLevel";
 
-{
-  /*import soldOut from "../images/soldOut.png";*/
-}
-import { iEvent } from "../../Type/EventType";
-
-function Event({
+export default function Event({
   link,
   location,
   description,
@@ -30,7 +26,6 @@ function Event({
       <div className="eventBanner">
         <img className="eventImage" src={image} alt={imageDesc} />
         {status ? <EventStatus status={status} /> : <></>}
-        {/* {soldOut ? <img className="sold-out" src={soldOut} alt="teste"/> : <></>} */}
         {classification != undefined ? <ClassificationLevel classification={classification} /> : <></>}
       </div>
 
@@ -60,5 +55,3 @@ function Event({
     </div>
   );
 }
-
-export default Event;

@@ -1,17 +1,18 @@
 import "./AboutTheEvent.css";
-import { Box, Card } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Infos from "./subcomponents/AboutWecomp";
 import Contact from "../../components/Contato/ContatoInfos";
+import ConteinerCard from "../../components/Card/ConteinerCard";
 
 export default function Sobre() {
   return (
     <section id="informacoes" className="about-the-event">
-      <Card w={"70vw"} margin={"auto"} borderRadius={16} backgroundColor={"rgba(164, 149, 235, .75)"} color={"white"}>
+      <ConteinerCard>
         <Box display={"flex"} flexDir={"column"} mt={5}>
           <Infos />
           <Contact isLandscape={true} />
         </Box>
-      </Card>
+      </ConteinerCard>
     </section>
   );
 }
