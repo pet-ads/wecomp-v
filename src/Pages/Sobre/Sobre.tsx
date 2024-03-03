@@ -7,7 +7,7 @@ import ConteinerCard from "../../components/Card/ConteinerCard";
 export default function Sobre() {
   return (
     <section id="informacoes" className="about-the-event">
-      <ConteinerCard>
+      <ConteinerCard heigth="">
         <Box display={"flex"} flexDir={"column"} mt={5}>
           <Infos />
           <Contact isLandscape={true} />
