@@ -1,10 +1,10 @@
 import ConteinerCard from "../../../../components/Card/ConteinerCard";
-import "./Schedule.css";
+import "./Aboutschedule.css";
 
 export default function aboutSchedule() {
   return (
     <div className="conteiner">
-      <ConteinerCard heigth="100%">
+      <ConteinerCard heigth="fit-content">
         <div className="schedule-description">
           <h3>Programação: </h3>
           <p>

@@ -1,28 +1,29 @@
-.schedule-description {
+.partner-description {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
 
 }
 
-.conteiner {
+.Partnerconteiner {
     width: 80%;
-    height: var(--page-height);
+    display: flex;
+    margin-left: 10%;
 }
 
 
-.schedule-description>h3 {
+.partner-description>h3 {
     margin: 0 0 1em;
     text-align: center;
     font-weight: light;
     font-size: var(--title-font-size);
 }
 
-.schedule-description>p {
+.partner-description>p {
     margin: 0 0 1em;
     text-align: center;
     font-weight: light;
@@ -30,24 +31,26 @@
 }
 
 @media screen and (max-height:950px) {
-    .schedule-description {
+    partner-description {
         height: fit-content;
     }
 
-    .conteiner {
+    .Partnerconteiner {
         margin-top: 30vh;
-        margin-bottom: 30vh;
     }
 }
 
 
 @media screen and (max-width: 390px) {
+    .partner-description {
+        height: 70vh;
+    }
 
-    .schedule-description>p {
+    .partner-description>p {
         font-size: 18px;
     }
 
-    .schedule-description>.section-content {
+    .partner-description>.section-content {
         padding: 20px 0;
     }
 
@@ -55,28 +58,22 @@
 
 @media screen and (max-width: 300px) {
 
-    .schedule-description {
+    .partner-description {
+        font-size: 16px;
         height: fit-content;
     }
 
-    .conteiner {
+    .Partnerconteiner {
         height: fit-content;
-        margin-top: calc(2*var(--page-height));
-        margin-bottom: calc(2*var(--page-height));
+
     }
 
 }
 
 @media screen and (max-width:260px) {
 
-    .schedule-description {
+    .partner-description {
 
         margin-left: 4%;
-
-    }
-
-    .conteiner {
-        margin-top: 80vh;
-        margin-bottom: 80vh;
     }
 }

@@ -1,11 +1,14 @@
+import "./Parceiros.css";
 import { useState, useEffect } from "react";
 import GroupOfPartners from "./subcomponents/GroupOfPartners";
-import "./Parceiros.css";
+import AboutPartners from "./subcomponents/AboutPartners";
 
 interface IParceirosProps {
   isLandscape: boolean;
 }
+
 export default function Parceiros({ isLandscape }: IParceirosProps) {
+  const [haspartner] = useState(false);
   const [supporters, setSupporters] = useState([]);
   const [organizers, setOrganizers] = useState([]);
 
@@ -25,9 +28,10 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
   }, []);
 
   return (
-    <div id="parceiros" className={'partners ${isLandscape ? "partners-landscape" : ""}'}>
+    <div id="parceiros" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
+      {!haspartner && <AboutPartners />}
       <div className="partnersTile">
-        <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />
+        {haspartner && <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />}
         <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
       </div>
     </div>
