@@ -36,6 +36,8 @@
     right: 0;
     bottom: 0;
     margin-left: 0;
+    justify-content: center;
+    align-content: center;
 }
 
 .scroll-container {
@@ -171,6 +173,10 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 @media screen and (max-width: 300px) {
     .banner {
         margin-left: 12%;
+    }
+
+    .parallax_layer_back {
+        height: 1040vh;
     }
 }
 
