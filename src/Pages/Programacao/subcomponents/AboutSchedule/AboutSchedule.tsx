@@ -1,5 +1,5 @@
-import ConteinerCard from "../../../../components/Card/ConteinerCard";
 import "./Aboutschedule.css";
+import ConteinerCard from "../../../../components/Card/ConteinerCard";
 
 export default function aboutSchedule() {
   return (

@@ -1,8 +1,8 @@
 import "./anteriores.css";
 import EdicaoCard from "./EdicaoCard";
+import Header from "../../components/Header/header";
 import Carousel from "../../components/Carousel/Carousel";
 import eventosAnteriores from "../../../public/Data/anteriores.json";
-import Header from "../../components/Header/header";
 
 export default function Preview() {
   return (

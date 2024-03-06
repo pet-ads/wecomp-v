@@ -1,5 +1,5 @@
-import logoGithubBranco from "/images/github-mark-white.png";
 import "./Footer.css";
+import logoGithubBranco from "/images/github-mark-white.png";
 
 interface isLandscapeProps {
   isLandscape: boolean;

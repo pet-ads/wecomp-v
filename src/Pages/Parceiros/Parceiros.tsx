@@ -1,7 +1,7 @@
 import "./Parceiros.css";
 import { useState, useEffect } from "react";
-import GroupOfPartners from "./subcomponents/GroupOfPartners";
 import AboutPartners from "./subcomponents/AboutPartners";
+import GroupOfPartners from "./subcomponents/GroupOfPartners";
 
 interface IParceirosProps {
   isLandscape: boolean;

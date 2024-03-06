@@ -1,10 +1,10 @@
 import "./Programacao.css";
 import { useState } from "react";
 import Event from "../../components/Event/Event";
+import Header from "../../components/Header/header";
 import events from "../../../public/Data/events.json";
 import Carousel from "../../components/Carousel/Carousel";
 import AboutSchedule from "./subcomponents/AboutSchedule/AboutSchedule";
-import Header from "../../components/Header/header";
 
 export default function Programacao() {
   const [hasEvents] = useState(false);

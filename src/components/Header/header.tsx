@@ -1,3 +1,5 @@
+import "./header.css";
+
 interface iHeaderProps {
   title: string;
 }

@@ -1,7 +1,8 @@
 import "./DropdownMenu.css";
 import menu from "/images/menu.png";
-import React, { useState, useRef } from "react";
 import LogoIFSP from "../Logos/IFSPLogo";
+import React, { useState, useRef } from "react";
+
 function DropdownMenu() {
   const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Retrospectiva"];
   const removeAccents = (str: string) => {

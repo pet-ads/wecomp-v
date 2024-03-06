@@ -1,12 +1,12 @@
-import Inicio from "../../Pages/Inicial/PaginaInicial";
-import Local from "../../Pages/Local/Local";
-import Parceiros from "../../Pages/Parceiros/Parceiros";
-import Programacao from "../../Pages/Programacao/Programacao";
-import Sobre from "../../Pages/Sobre/Sobre";
+import "../Background/Parallax.css";
 import Footer from "../Footer/Footer";
 import NavBar from "../Navigation/NavBar";
-import "../Background/Parallax.css";
+import Sobre from "../../Pages/Sobre/Sobre";
+import Local from "../../Pages/Local/Local";
+import Inicio from "../../Pages/Inicial/PaginaInicial";
+import Parceiros from "../../Pages/Parceiros/Parceiros";
 import Anteriores from "../../Pages/Anteriors/Anteriores";
+import Programacao from "../../Pages/Programacao/Programacao";
 
 interface layoutProps {
   isLandscape: boolean;

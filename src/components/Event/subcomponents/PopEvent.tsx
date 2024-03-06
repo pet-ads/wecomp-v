@@ -1,10 +1,10 @@
-import ReactModal from "react-modal";
-import { useState } from "react";
-import ActionButton from "../../Button/ActionButton.js";
-import ClassificationBadge from "./ClassificationBadge";
 import "./PopUpEvnt.css";
+import { useState } from "react";
+import ReactModal from "react-modal";
 import PopUpEventTab from "./PopUpEventTab.js";
 import { iEvent } from "../../../Type/EventType.js";
+import ActionButton from "../../Button/ActionButton.js";
+import ClassificationBadge from "./ClassificationBadge";
 
 interface PopUpEventPros extends iEvent {
   subTitle: string;
