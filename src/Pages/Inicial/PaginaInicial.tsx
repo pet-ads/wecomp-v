@@ -1,4 +1,5 @@
 import "./PaginaInicial.css";
+import Header from "../../components/Header/header";
 import logoWecomp from "../../assets/images/logoCerto.png";
 
 interface InitialPageProps {
@@ -10,7 +11,7 @@ export default function Inicio({ text, subText }: InitialPageProps) {
     <div id="inicio" className={"banner"}>
       <div className={"banner-container"}>
         <img className={"banner-image"} src={logoWecomp}></img>
-        <h2 className={"banner-title"}>{text}</h2>
+        <Header title={text} />
         <p className={"banner-text"}>{subText}</p>
       </div>
     </div>

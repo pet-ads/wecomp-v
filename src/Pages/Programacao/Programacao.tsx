@@ -3,13 +3,15 @@ import { useState } from "react";
 import Event from "../../components/Event/Event";
 import events from "../../../public/Data/events.json";
 import Carousel from "../../components/Carousel/Carousel";
-import AboutSchedule from "./subcomponents/AboutSchedule/AboutSchedule"; // Corrigido aqui
+import AboutSchedule from "./subcomponents/AboutSchedule/AboutSchedule";
+import Header from "../../components/Header/header";
 
 export default function Programacao() {
-  const [hasEvents] = useState(false);
+  const [hasEvents] = useState(true);
+
   return (
     <div id="programacao" className="schedule">
-      {hasEvents === false ? "" : <h2 className="scheduleTitle">Programação</h2>}
+      {hasEvents === false ? "" : <Header title="Programação" />}
 
       {hasEvents === false ? (
         <AboutSchedule />

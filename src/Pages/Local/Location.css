@@ -22,7 +22,8 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 5vh;
-    row-gap: 2vh
+    row-gap: 2vh;
+    margin-left: 1%;
 }
 
 .local>h1 {

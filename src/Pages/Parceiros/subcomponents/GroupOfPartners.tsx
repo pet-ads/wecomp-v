@@ -1,5 +1,6 @@
 import "./GroupOfPartners.css";
 import Partner from "./Partner";
+import Header from "../../../components/Header/header";
 
 interface IPartner {
   id: string;
@@ -19,7 +20,7 @@ export default function GroupOfPartners({ partners, text, isLandscape }: GroupOf
   return (
     <>
       <div className="partnersTitleContainer">
-        <h1 className="partnersTitle">{text}</h1>
+        <Header title={text} />
       </div>
       <div className="groupOfPartners">
         {partners.map((partner) => (
