@@ -26,7 +26,7 @@
 }
 
 .banner-text {
-    font-size: var(--text-font-size);
+    font-size: var(--subtitle-font-size);
     font-weight: 400;
 }
 

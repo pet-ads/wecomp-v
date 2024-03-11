@@ -20,7 +20,7 @@ export default function NormalLayout({ isLandscape }: layoutProps) {
       <div className="scroll-container parallax">
         <Background isLandscape={isLandscape} />
         <div className="parallax_layer_base parallax__layer">
-          <Inicio text="V Semana da computação" subText="Em breve..." />
+          <Inicio text="V Semana da computação" subText="02 de setembro a 06 de setembro" />
           <Sobre />
           <Parceiros isLandscape={isLandscape} />
           <Programacao />
