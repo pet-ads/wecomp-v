@@ -1,5 +1,11 @@
 [
     {
+        "image": "public/images/Wecomp2017Logo.png",
+        "imageDesc": "Logo da I Wecomp",
+        "Name": "Wecomp 2017",
+        "link": "https://www.facebook.com/media/set/?vanity=wecompifsp&set=a.796919305825039"
+    },
+    {
         "image": "public/images/Wecomp2018Logo.png",
         "imageDesc": "Logo da II Wecomp",
         "Name": "Wecomp 2018",
