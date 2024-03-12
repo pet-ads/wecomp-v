@@ -7,7 +7,7 @@ import Carousel from "../../components/Carousel/Carousel";
 import AboutSchedule from "./subcomponents/AboutSchedule/AboutSchedule";
 
 export default function Programacao() {
-  const [hasEvents] = useState(true);
+  const [hasEvents] = useState(false);
 
   return (
     <div id="programacao" className="schedule">

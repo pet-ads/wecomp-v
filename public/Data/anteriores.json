@@ -1,24 +1,24 @@
 [
     {
-        "image": "public/images/Wecomp2017Logo.png",
+        "image": "/images/wecomp2017Logo.png",
         "imageDesc": "Logo da I Wecomp",
         "Name": "Wecomp 2017",
         "link": "https://www.facebook.com/media/set/?vanity=wecompifsp&set=a.796919305825039"
     },
     {
-        "image": "public/images/Wecomp2018Logo.png",
+        "image": "/images/wecomp2018Logo.png",
         "imageDesc": "Logo da II Wecomp",
         "Name": "Wecomp 2018",
         "link": "https://www.facebook.com/media/set/?vanity=wecompifsp&set=a.796818979168405"
     },
     {
-        "image": "public/images/Wecomp2019Logo.png",
+        "image": "/images/wecomp2019Logo.png",
         "imageDesc": "Logo da III Wecomp",
         "Name": "Wecomp 2019",
         "link": "https://wecomp2019.vercel.app"
     },
     {
-        "image": "public/images/WecompIVLogo.png",
+        "image": "/images/WecompIVLogo.png",
         "imageDesc": "Logo da IV Wecomp",
         "Name": "Wecomp 2023",
         "link": "https://wecomp.vercel.app"
