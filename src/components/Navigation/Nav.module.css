@@ -40,6 +40,7 @@
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 770px) {
     .navbarItem {
         padding-left: 15px;

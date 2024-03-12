@@ -54,6 +54,7 @@
 
 }
 
+
 @media screen and (max-width: 300px) {
 
     .partner-description {
@@ -63,6 +64,7 @@
 
     .Partnerconteiner {
         height: fit-content;
+        padding-top: 10%;
 
     }
 
