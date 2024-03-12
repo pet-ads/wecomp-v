@@ -4,11 +4,11 @@ import { useState } from "react";
 
 interface PopUpEventTabProps {
   texts: string[];
-  descriptions: string[];
+  descriptions: string[] | string;
 }
 
 export default function PopUpEventTab({ texts, descriptions }: PopUpEventTabProps) {
-  const [text, setText] = useState(descriptions[0]);
+  const [text, setText] = useState(Array.isArray(descriptions) ? descriptions[0] : descriptions);
   const [selectedTab, setSelectedTab] = useState(0);
 
   const handleTabClick = (newDescription: string, index: number) => {
@@ -26,7 +26,7 @@ export default function PopUpEventTab({ texts, descriptions }: PopUpEventTabProp
             numberOfTabs={numberOfTabs}
             key={index}
             text={text}
-            onClick={() => handleTabClick(descriptions[index], index)}
+            onClick={() => handleTabClick(Array.isArray(descriptions) ? descriptions[index] : descriptions, index)}
             isSelected={selectedTab === index}
           />
         ))}

@@ -39,7 +39,11 @@ export default function PopUpEvent({
             {date} | {time}
           </p>
           {bio ? (
-            <PopUpEventTab texts={["Descrição", "Bio"]} descriptions={[description, bio]} />
+            Array.isArray(bio) ? (
+              <PopUpEventTab texts={["Descrição", "Bio"]} descriptions={[description, ...bio]} />
+            ) : (
+              <PopUpEventTab texts={["Descrição", "Bio"]} descriptions={[description, bio]} />
+            )
           ) : (
             <PopUpEventTab texts={["Descrição"]} descriptions={[description]} />
           )}
