@@ -8,7 +8,7 @@ interface LocationProps {
 export default function LocationFrame({ name, address, src }: LocationProps) {
   return (
     <Card
-      backgroundColor={"rgba(164, 149, 235, 1)"}
+      backgroundColor={"rgba(134, 119, 205, .75)"}
       borderRadius={16}
       w={{ base: "85vw", md: "45%", lg: "fit-content" }}
       h={"auto"}

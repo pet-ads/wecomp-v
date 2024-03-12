@@ -12,7 +12,7 @@ export default function ConteinerCard({ children, heigth }: iConteinerCardProps)
       w={"70vw"}
       margin={"auto"}
       borderRadius={16}
-      backgroundColor={"rgba(164, 149, 235, .75)"}
+      backgroundColor={"rgba(134, 119, 205, .75)"}
       color={"white"}
       h={heigth}
     >
