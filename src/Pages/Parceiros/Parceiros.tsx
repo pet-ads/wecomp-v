@@ -2,6 +2,7 @@ import "./Parceiros.css";
 import { useState, useEffect } from "react";
 import AboutPartners from "./subcomponents/AboutPartners";
 import GroupOfPartners from "./subcomponents/GroupOfPartners";
+import ConteinerCard from "../../components/Card/ConteinerCard";
 
 interface IParceirosProps {
   isLandscape: boolean;
@@ -35,7 +36,9 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
         ) : (
           <AboutPartners />
         )}
-        <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
+        <ConteinerCard heigth="fit=content">
+          <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
+        </ConteinerCard>
       </div>
     </div>
   );
