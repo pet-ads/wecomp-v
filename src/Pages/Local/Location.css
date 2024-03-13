@@ -13,6 +13,7 @@
     height: var(--page-height);
     align-content: center;
     margin-bottom: 10vh;
+    padding-top: 10%;
 }
 
 .locations {
@@ -54,10 +55,40 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+    .local {
+        padding-top: 45%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .local {
+        padding-top: 20%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .locations {
         margin-bottom: 10vh;
     }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .local {
+        padding-top: 85%;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+    .local {
+        padding-top: 140%;
+    }
+
 }
 
 @media screen and (max-width: 260px) {
