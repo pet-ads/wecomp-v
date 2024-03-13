@@ -3,7 +3,7 @@
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: fixed;
     width: 100%;
     z-index: 50;

@@ -1,12 +1,14 @@
 import "./DropdownMenu.css";
 import menu from "/images/menu.png";
-import LogoIFSP from "../Logos/IFSPLogo";
 import React, { useState, useRef } from "react";
 
 function DropdownMenu() {
-  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Retrospectiva"];
-  const removeAccents = (str: string) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Eventos Anteriores"];
+  const removeAccentsAndSpaces = (str: string) => {
+    return str
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+/g, ""); // Replace spaces with empty string
   };
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -23,7 +25,6 @@ function DropdownMenu() {
 
   return (
     <div className="menu">
-      <LogoIFSP />
       <div className="dropdown" ref={dropdownRef} onMouseLeave={handleMouseLeave}>
         <div className="menu-image">
           <img src={menu} onClick={toggleDropdown} alt="Menu"></img>
@@ -32,7 +33,7 @@ function DropdownMenu() {
         {isDropdownOpen && (
           <div className="dropdown-content">
             {paths.map((path) => (
-              <a href={`#${removeAccents(path.toLowerCase())}`}>{path}</a>
+              <a href={`#${removeAccentsAndSpaces(path.trim().toLowerCase())}`}>{path}</a>
             ))}
           </div>
         )}

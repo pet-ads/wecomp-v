@@ -1,18 +1,19 @@
 import styles from "./Nav.module.css";
-import LogoIFSP from "../Logos/IFSPLogo";
 
 export default function DefaultMenu() {
-  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Retrospectiva"];
-  const removeAccents = (str: string) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const paths: string[] = ["Início", "Informações", "Parceiros", "Programação", "Local", "Eventos Anteriores"];
+  const removeAccentsAndSpaces = (str: string) => {
+    return str
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+/g, ""); // Replace spaces with empty string
   };
   return (
     <>
-      <LogoIFSP />
       <ul className={styles.navbarConteiner}>
         {paths.map((path, index) => (
-          <li className={styles.navbarItem}>
-            <a className={styles.navbarLink} key={index} href={`#${removeAccents(path.trim().toLowerCase())}`}>
+          <li className={styles.navbarItem} key={index}>
+            <a className={styles.navbarLink} href={`#${removeAccentsAndSpaces(path.trim().toLowerCase())}`}>
               {path}
             </a>
           </li>
