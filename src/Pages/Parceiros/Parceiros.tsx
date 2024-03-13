@@ -29,9 +29,12 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
 
   return (
     <div id="parceiros" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
-      {!haspartner && <AboutPartners />}
       <div className="partnersTile">
-        {haspartner && <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />}
+        {haspartner ? (
+          <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />
+        ) : (
+          <AboutPartners />
+        )}
         <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
       </div>
     </div>
