@@ -10,7 +10,10 @@ export default function EdicaoCard({ image, imageDesc, name, link }: eCardProp) 
   return (
     <div className="edicao">
       <div className="edicaoBanner">
-        <img className="edicaoImage" src={image} alt={imageDesc} />
+        <a href={link} target="_blank">
+          {" "}
+          <img className="edicaoImage" src={image} alt={imageDesc} />
+        </a>
       </div>
       <a href={link} target="_blank">
         <h3 className="edicaoName">{name}</h3>
