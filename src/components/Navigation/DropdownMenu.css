@@ -130,7 +130,7 @@
 
 @media screen and (max-width:490px) {
     .dropdown-content {
-        left: 58%;
+        left: 53%;
     }
 
 }
@@ -139,6 +139,8 @@
     .menu-image {
         padding-top: 40%;
     }
+
+
 
 }
 

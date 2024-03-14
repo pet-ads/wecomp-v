@@ -8,7 +8,7 @@ function DropdownMenu() {
     return str
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
-      .replace(/\s+/g, ""); // Replace spaces with empty string
+      .replace(/\s+/g, "");
   };
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
