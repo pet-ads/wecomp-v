@@ -1,28 +1,26 @@
 .partner-description {
     width: 100%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
-    margin-top: 1.5%;
+
 
 }
 
 .Partnerconteiner {
     width: 100%;
     display: flex;
+    margin-bottom: 16px;
 }
 
 
 .partner-description>h3 {
     margin: 0 0 1em;
-    text-align: center;
     font-weight: light;
     font-size: var(--title-font-size);
 }
 
 .partner-description>p {
     margin: 0 0 1em;
-    text-align: center;
     font-weight: light;
     font-size: var(--title-font-size);
 }

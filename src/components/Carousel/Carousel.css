@@ -3,6 +3,7 @@
     height: max-content;
     flex-direction: row;
     transition: all .75s;
+    margin-bottom: 2%;
 }
 
 .carousel-window {

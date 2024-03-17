@@ -9,7 +9,7 @@ interface IParceirosProps {
 }
 
 export default function Parceiros({ isLandscape }: IParceirosProps) {
-  const [haspartner] = useState(false);
+  const [haspartner] = useState(true);
   const [supporters, setSupporters] = useState([]);
   const [organizers, setOrganizers] = useState([]);
 
@@ -30,16 +30,17 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
 
   return (
     <div id="parceiros" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
-      <div className="partnersTile">
-        {haspartner ? (
-          <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />
-        ) : (
-          <AboutPartners />
-        )}
-        <ConteinerCard heigth="fit=content">
+      <ConteinerCard heigth="auto" width="70vw">
+        <div className="partnersTile">
+          {haspartner ? (
+            <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />
+          ) : (
+            <AboutPartners />
+          )}
+
           <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
-        </ConteinerCard>
-      </div>
+        </div>
+      </ConteinerCard>
     </div>
   );
 }

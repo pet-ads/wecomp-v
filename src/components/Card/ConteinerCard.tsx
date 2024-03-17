@@ -4,12 +4,13 @@ import { Card } from "@chakra-ui/react";
 interface iConteinerCardProps {
   children: React.ReactNode | React.ReactNode[];
   heigth: string;
+  width: string;
 }
 
-export default function ConteinerCard({ children, heigth }: iConteinerCardProps) {
+export default function ConteinerCard({ children, heigth, width }: iConteinerCardProps) {
   return (
     <Card
-      w={"60vw"}
+      w={width}
       margin={"auto"}
       borderRadius={16}
       backgroundColor={"rgba(134, 119, 205, .75)"}

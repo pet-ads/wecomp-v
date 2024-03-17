@@ -19,7 +19,7 @@
 }
 
 .clickable>path {
-    fill: blueviolet;
+    fill: #FFF;
 }
 
 .nonClickable>path {
@@ -33,7 +33,7 @@
     }
 
     .clickable>path {
-        stroke: blueviolet;
+        stroke: rgb(209, 209, 209);
         stroke-width: 0.5;
     }
 
