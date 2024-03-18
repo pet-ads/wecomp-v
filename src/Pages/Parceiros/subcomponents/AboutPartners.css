@@ -41,18 +41,6 @@
 
 }
 
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 1040px) {}
-
-
-@media screen and (max-width: 550px) {}
-
-@media screen and (max-width: 450px) {}
-
-@media screen and (max-width: 420px) {}
-
-
 
 @media screen and (max-width: 390px) {
     .partner-description {
@@ -80,7 +68,6 @@
 
     .Partnerconteiner {
         height: fit-content;
-        padding-top: 110%;
 
     }
 

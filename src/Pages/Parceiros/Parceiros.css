@@ -40,8 +40,11 @@
 
 @media screen and (max-width: 1280px) {
     .partnersTile {
-        padding-top: 6%;
         padding-bottom: 5%;
+    }
+
+    .partners {
+        padding-top: 2%;
     }
 }
 
@@ -58,10 +61,6 @@
     .partnersTile {
         padding-top: 6%;
     }
-}
-
-@media screen and (max-width: 540px) {
-    .partnersTile {}
 }
 
 
@@ -98,8 +97,10 @@
     .partnersTile {
         width: 80%;
         padding-top: 0%;
-        margin-top: 40vh;
+    }
 
+    .conteinerCard {
+        padding-top: 50%;
     }
 }
 
