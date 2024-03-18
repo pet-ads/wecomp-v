@@ -8,7 +8,7 @@ export default function Sobre() {
   return (
     <section id="informacoes" className="about-the-event">
       <div className="infoconteiner">
-        <ConteinerCard heigth="">
+        <ConteinerCard heigth="fit-content" width="80vw">
           <Box display={"flex"} flexDir={"column"} mt={5}>
             <Infos />
             <Contact isLandscape={true} />

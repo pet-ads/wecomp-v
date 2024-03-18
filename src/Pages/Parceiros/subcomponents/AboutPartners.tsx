@@ -5,7 +5,7 @@ export default function aboutPartner() {
     <div className="Partnerconteiner">
       <div className="partner-description">
         <h3>Apoiadores</h3>
-        <p>EM BREVE ....</p>
+        <p>EM BREVE....</p>
       </div>
     </div>
   );
