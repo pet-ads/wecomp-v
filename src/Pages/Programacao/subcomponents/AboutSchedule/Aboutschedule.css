@@ -17,8 +17,8 @@
 .schedule-description>h3 {
     margin: 0 0 1em;
     text-align: center;
-    font-weight: light;
-    font-size: var(--title-font-size);
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .schedule-description>p {

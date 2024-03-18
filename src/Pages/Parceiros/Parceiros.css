@@ -73,9 +73,23 @@
     height: unset !important;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
     .partnersTile {
         padding-top: 0;
+    }
+
+    .conteinerCard {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .partnersTile {
+        padding-top: 0;
+    }
+
+    .conteinerCard {
+        padding-top: 40%;
     }
 }
 
@@ -84,6 +98,10 @@
     .partnersTile {
         padding-top: 5%;
         padding-bottom: 40%;
+    }
+
+    .conteinerCard {
+        padding-top: 80%;
     }
 }
 
@@ -104,9 +122,11 @@
         padding-top: 0%;
     }
 
+
     .conteinerCard {
-        padding-top: 50%;
+        padding-top: 200%;
     }
+
 }
 
 @media screen and (max-width:260px) {
