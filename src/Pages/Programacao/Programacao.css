@@ -25,6 +25,14 @@
     padding-top: 6%;
 }
 
+
+@media screen and (max-width : 1366px) {
+    .schedule {
+        padding-top: 15vh;
+    }
+}
+
+
 @media screen and (max-width : 1040px) {
     .schedule {
         padding-top: 5vh;

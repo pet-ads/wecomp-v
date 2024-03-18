@@ -35,6 +35,11 @@
     .partnersTile {
         width: 90%;
     }
+
+    .conteinerCard {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
 }
 
 
