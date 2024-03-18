@@ -9,14 +9,16 @@ interface ILocationProps {
 export default function Local({ isLandscape }: ILocationProps) {
   return (
     <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
-      <ConteinerCard heigth="fit-content" width="90vw">
-        <h1 className="title">Locais do Evento </h1>
-        <div className="locations">
-          {Locations.map((location) => {
-            return <LocationFrame address={location.address} name={location.name} src={location.src} />;
-          })}
-        </div>
-      </ConteinerCard>
+      <div className="conteinerCard">
+        <ConteinerCard heigth="fit-content" width="90vw">
+          <h1 className="title">Locais do Evento </h1>
+          <div className="locations">
+            {Locations.map((location) => {
+              return <LocationFrame address={location.address} name={location.name} src={location.src} />;
+            })}
+          </div>
+        </ConteinerCard>
+      </div>
     </div>
   );
 }

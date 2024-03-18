@@ -9,11 +9,12 @@ export default function LocationFrame({ name, address, src }: LocationProps) {
   return (
     <Card
       backgroundColor={"rgba(0, 0, 0, 0)"}
-      borderRadius={16}
-      w={{ md: "45%" }}
+      borderRadius={8}
+      border={"none"}
+      w={"auto"}
       h={"auto"}
       display={"flex"}
-      alignContent={"center"}
+      alignContent={"space-between"}
       justifyContent={"space-between"}
       color={"white"}
       mt={5}

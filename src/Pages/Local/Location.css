@@ -11,16 +11,14 @@
     width: 100%;
     max-width: 100%;
     height: var(--page-height);
-    align-content: center;
     margin-bottom: 10vh;
-    padding-top: 15%;
 }
 
 .locations {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     column-gap: 5vh;
     row-gap: 2vh;
@@ -33,10 +31,15 @@
     margin-bottom: 10px;
 }
 
+.conteinerCard {
+    margin: auto;
+    padding-top: 3%;
+}
 
 @media screen and (max-width: 775px) {
     .local {
         height: calc(var(--page-height) - 20vh);
+        padding-top: 10vh;
     }
 
     .local>h1 {
@@ -50,21 +53,10 @@
 
 }
 
-@media screen and (max-height:720px) {
-    .local {
-        padding-top: 3vh;
-    }
-}
 
 @media screen and (max-width: 540px) {
     .local {
-        padding-top: 60%;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .local {
-        padding-top: 20%;
+        padding-top: 40%;
     }
 }
 
@@ -78,16 +70,15 @@
 @media screen and (max-width: 390px) {
 
     .local {
-        padding-top: 85%;
+        padding-top: 55%;
     }
 
 }
 
 
-@media screen and (max-width: 300px) {
-
+@media screen and (max-width: 375px) {
     .local {
-        padding-top: 140%;
+        padding-top: 85%;
     }
 
 }
