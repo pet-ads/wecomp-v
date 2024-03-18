@@ -8,15 +8,16 @@ interface LocationProps {
 export default function LocationFrame({ name, address, src }: LocationProps) {
   return (
     <Card
-      backgroundColor={"rgba(134, 119, 205, .75)"}
+      backgroundColor={"rgba(0, 0, 0, 0)"}
       borderRadius={16}
-      w={{ base: "85vw", md: "45%", lg: "fit-content" }}
+      w={{ md: "45%" }}
       h={"auto"}
       display={"flex"}
       alignContent={"center"}
-      justifyContent={"center"}
+      justifyContent={"space-between"}
       color={"white"}
-      mt={50}
+      mt={5}
+      mb={5}
     >
       <div className="locationFrame">
         <div className="text-content">

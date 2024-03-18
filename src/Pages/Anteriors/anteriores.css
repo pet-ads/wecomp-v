@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     height: var(--page-height);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5em;
     margin-top: 10em;
@@ -11,7 +11,7 @@
 }
 
 .eventos-anteriores h1 {
-    color: var(--font-color);
+    color: #fff;
     font-size: 30px;
     padding-bottom: 50px;
     font-weight: bold;
@@ -40,12 +40,17 @@
 .edicaoName {
     font-size: 18px;
     font-weight: 700;
-    color: var(--font-color);
+    color: #fff;
     margin: 10px;
     height: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.edicaoImage:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .edicaoName:hover {

@@ -1,6 +1,7 @@
 import "./Location.css";
 import LocationFrame from "./subcomponents/LocationFrame";
 import Locations from "../../../public/Data/location.json";
+import ConteinerCard from "../../components/Card/ConteinerCard";
 
 interface ILocationProps {
   isLandscape: boolean;
@@ -8,12 +9,14 @@ interface ILocationProps {
 export default function Local({ isLandscape }: ILocationProps) {
   return (
     <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
-      <h1 className="title">Locais do Evento </h1>
-      <div className="locations">
-        {Locations.map((location) => {
-          return <LocationFrame address={location.address} name={location.name} src={location.src} />;
-        })}
-      </div>
+      <ConteinerCard heigth="fit-content" width="fit-content">
+        <h1 className="title">Locais do Evento </h1>
+        <div className="locations">
+          {Locations.map((location) => {
+            return <LocationFrame address={location.address} name={location.name} src={location.src} />;
+          })}
+        </div>
+      </ConteinerCard>
     </div>
   );
 }
