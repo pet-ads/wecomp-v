@@ -8,23 +8,25 @@ import ConteinerCard from "../../components/Card/ConteinerCard";
 export default function Preview() {
   return (
     <div id="eventosanteriores" className="eventos-anteriores">
-      <ConteinerCard width="fit-content" heigth="fit-content">
-        <Header title="Eventos Anteriores" />
-        <div className="container">
-          <Carousel>
-            {eventosAnteriores.map((eventoAnterior) => {
-              return (
-                <EdicaoCard
-                  image={eventoAnterior.image}
-                  imageDesc={eventoAnterior.imageDesc}
-                  name={eventoAnterior.Name}
-                  link={eventoAnterior.link}
-                />
-              );
-            })}
-          </Carousel>
-        </div>
-      </ConteinerCard>
+      <div className="conteinerEdition">
+        <ConteinerCard width="fit-content" heigth="fit-content">
+          <Header title="Eventos Anteriores" />
+          <div className="container">
+            <Carousel>
+              {eventosAnteriores.map((eventoAnterior) => {
+                return (
+                  <EdicaoCard
+                    image={eventoAnterior.image}
+                    imageDesc={eventoAnterior.imageDesc}
+                    name={eventoAnterior.Name}
+                    link={eventoAnterior.link}
+                  />
+                );
+              })}
+            </Carousel>
+          </div>
+        </ConteinerCard>
+      </div>
     </div>
   );
 }

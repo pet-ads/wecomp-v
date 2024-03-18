@@ -58,6 +58,18 @@
     cursor: pointer;
 }
 
+.conteinerEdition {
+    margin: auto;
+    padding-top: 5%;
+}
+
+@media screen and (max-width : 414px) {
+    .eventos-anteriores {
+        margin-top: 5em;
+    }
+
+}
+
 @media screen and (max-width : 400px) {
 
     .edicaoBanner {
@@ -67,6 +79,10 @@
 
     .edicao {
         width: 184px;
+    }
+
+    .conteinerEdition {
+        padding-top: 60%;
     }
 }
 

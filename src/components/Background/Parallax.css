@@ -127,7 +127,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 
     .parallax_layer_back {
-        height: 499vh;
+        height: 599vh;
     }
 }
 
@@ -144,7 +144,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
     .parallax-image-safari {
         transform: scale(.2);
-        height: 530%;
+        height: 630%;
         top: -210%;
     }
 }
