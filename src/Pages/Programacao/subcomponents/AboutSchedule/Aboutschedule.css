@@ -103,6 +103,7 @@
 
     .schedule-description {
         height: fit-content;
+        width: 80vw;
     }
 
     .conteiner {
