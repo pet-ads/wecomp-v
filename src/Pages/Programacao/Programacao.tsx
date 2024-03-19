@@ -8,7 +8,7 @@ import AboutSchedule from "./subcomponents/AboutSchedule/AboutSchedule";
 import ConteinerCard from "../../components/Card/ConteinerCard";
 
 export default function Programacao() {
-  const [hasEvents] = useState(true);
+  const [hasEvents] = useState(false);
 
   return (
     <div id="programacao" className="schedule">
