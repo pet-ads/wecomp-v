@@ -109,4 +109,9 @@
 
     }
 
+    .conteiner-text {
+        position: relative;
+        right: 4%;
+    }
+
 }
