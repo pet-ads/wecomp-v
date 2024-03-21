@@ -143,7 +143,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
 
     .parallax-image-safari {
-        transform: scale(.2);
+        transform: scale(.5);
         height: 630%;
         top: -210%;
     }
