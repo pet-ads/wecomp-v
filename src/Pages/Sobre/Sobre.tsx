@@ -5,7 +5,7 @@ import Contact from "../../components/Contato/ContatoInfos";
 import ConteinerCard from "../../components/Card/ConteinerCard";
 
 export default function Sobre() {
-  const width = useBreakpointValue({ base: "80vw", md: "fit-content", lg: "fit-content" }) ?? "80vw";
+  const width = useBreakpointValue({ base: "80vw", md: "80vw", lg: "fit-content" }) ?? "80vw";
 
   return (
     <section id="informacoes" className="about-the-event">
