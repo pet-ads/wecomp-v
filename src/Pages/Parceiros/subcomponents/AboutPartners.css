@@ -44,6 +44,10 @@
 
 
 @media screen and (max-width: 390px) {
+    .partner-description>h3 {
+        padding-top: 5%;
+    }
+
     .partner-description {
         height: 70vh;
     }

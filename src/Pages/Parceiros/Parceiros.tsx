@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import AboutPartners from "./subcomponents/AboutPartners";
 import GroupOfPartners from "./subcomponents/GroupOfPartners";
 import ConteinerCard from "../../components/Card/ConteinerCard";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 interface IParceirosProps {
   isLandscape: boolean;
@@ -28,10 +29,12 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
     fetchPartners();
   }, []);
 
+  const width = useBreakpointValue({ base: "fit-content", md: "70vw", lg: "40vw" }) ?? "80vw";
+
   return (
     <div id="parceiros" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
       <div className="conteinerCard">
-        <ConteinerCard heigth="fit-content" width="75vw">
+        <ConteinerCard heigth="auto" width={width}>
           <div className="partnersTile">
             {haspartner ? (
               <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape} />

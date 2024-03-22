@@ -10,7 +10,7 @@ import { useBreakpointValue } from "@chakra-ui/react";
 
 export default function Programacao() {
   const [hasEvents] = useState(false);
-  const width = useBreakpointValue({ base: "80vw", md: "fit-content", lg: "40vw" }) ?? "80vw";
+  const width = useBreakpointValue({ base: "80vw", md: "50vw", lg: "40vw" }) ?? "80vw";
 
   return (
     <div id="programacao" className="schedule">
