@@ -10,7 +10,7 @@ interface IParceirosProps {
 }
 
 export default function Parceiros({ isLandscape }: IParceirosProps) {
-  const [haspartner] = useState(false);
+  const [haspartner] = useState(true);
   const [supporters, setSupporters] = useState([]);
   const [organizers, setOrganizers] = useState([]);
 
