@@ -2,6 +2,7 @@
     font-size: var(--subtitle-font-size);
     font-size: 30px;
     font-weight: bold;
+    padding-top: 2%;
 }
 
 .local {
@@ -27,7 +28,7 @@
 }
 
 .local>h1 {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }

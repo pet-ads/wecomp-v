@@ -14,7 +14,6 @@ export default function Contact({ isLandscape }: ContactProps) {
         Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento. Entre em contato conosco
         pelo nosso e-mail oficial!
       </p>
-      <h3>Redes Sociais</h3>
       <div className="socialMedia">
         {Array.isArray(icons) &&
           icons.map((icon) => (

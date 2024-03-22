@@ -4,7 +4,7 @@ import { Card } from "@chakra-ui/react";
 interface iConteinerCardProps {
   children: React.ReactNode | React.ReactNode[];
   heigth: string;
-  width: string;
+  width: string | { base: string; md: string; lg: string };
 }
 
 export default function ConteinerCard({ children, heigth, width }: iConteinerCardProps) {

@@ -2,15 +2,18 @@ import "./Location.css";
 import LocationFrame from "./subcomponents/LocationFrame";
 import Locations from "../../../public/Data/location.json";
 import ConteinerCard from "../../components/Card/ConteinerCard";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 interface ILocationProps {
   isLandscape: boolean;
 }
 export default function Local({ isLandscape }: ILocationProps) {
+  const width = useBreakpointValue({ base: "95vw", md: "fit-content", lg: "fit-content" }) ?? "95vw";
+
   return (
     <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
       <div className="conteinerLocation">
-        <ConteinerCard heigth="fit-content" width="fit-content">
+        <ConteinerCard heigth="fit-content" width={width}>
           <h1 className="title">Locais do Evento </h1>
           <div className="locations">
             {Locations.map((location) => {
