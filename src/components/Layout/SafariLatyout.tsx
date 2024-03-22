@@ -19,7 +19,7 @@ export default function SafariLayout({ isLandscape }: layoutProps) {
       <div className="parallax-safari">
         <div className="parallax-image-safari" />
         <div className="main-content-safari">
-          <Inicio text="V Semana da Computação" subText="02 de setembro a 06 de setembro" />
+          <Inicio text="V Semana da Computação" subText="02 a 06 de setembro" />
           <Sobre />
           <Parceiros isLandscape={isLandscape} />
           <Programacao />
