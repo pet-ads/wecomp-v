@@ -29,7 +29,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
     fetchPartners();
   }, []);
 
-  const width = useBreakpointValue({ base: "fit-content", md: "70vw", lg: "40vw" }) ?? "80vw";
+  const width = useBreakpointValue({ base: "75vw", md: "70vw", lg: "40vw" }) ?? "80vw";
 
   return (
     <div id="parceiros" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
