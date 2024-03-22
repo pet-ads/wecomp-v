@@ -8,7 +8,7 @@ interface ILocationProps {
   isLandscape: boolean;
 }
 export default function Local({ isLandscape }: ILocationProps) {
-  const width = useBreakpointValue({ base: "95vw", md: "fit-content", lg: "fit-content" }) ?? "95vw";
+  const width = useBreakpointValue({ base: "85vw", md: "60vw", lg: "fit-content" }) ?? "85vw";
 
   return (
     <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
