@@ -63,6 +63,10 @@
     padding-top: 5%;
 }
 
+img {
+    padding-right: 6%;
+}
+
 @media screen and (max-width : 414px) {
     .eventos-anteriores {
         margin-top: 5em;
