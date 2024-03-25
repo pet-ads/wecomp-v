@@ -25,7 +25,8 @@
 
 .conteinerCard {
     margin: auto;
-    padding-top: 5%
+    padding-top: 0;
+    padding-bottom: 5%;
 }
 
 
@@ -51,6 +52,11 @@
     .partners {
         padding-top: 10%;
     }
+
+    .conteinerCard {
+        padding-top: 0;
+        padding-bottom: 3%;
+    }
 }
 
 
@@ -73,7 +79,7 @@
     }
 
     .conteinerCard {
-        padding-top: 20%;
+        padding-top: 5%;
     }
 }
 
@@ -83,7 +89,7 @@
     }
 
     .conteinerCard {
-        padding-top: 40%;
+        padding-top: 0;
     }
 }
 
@@ -95,13 +101,17 @@
     }
 
     .conteinerCard {
-        padding-top: 30%;
+        padding-top: 10%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .partnersTile {
         padding-bottom: 10%;
+    }
+
+    .conteinerCard {
+        padding-top: 5%;
     }
 }
 
@@ -119,7 +129,7 @@
 
 
     .conteinerCard {
-        padding-top: 200%;
+        padding-top: 120%;
     }
 
 }
