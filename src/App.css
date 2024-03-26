@@ -8,5 +8,4 @@
 .scroll-container {
     height: var(--page-height);
     width: auto;
-    overflow: scroll;
 }

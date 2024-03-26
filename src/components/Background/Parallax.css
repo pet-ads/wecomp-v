@@ -9,7 +9,7 @@
             rgba(164, 149, 235, 0.2) 91%,
             rgba(204, 153, 255, 0.3),
             rgba(204, 153, 255, 0.65));
-    height: 499vh;
+    height: 450vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -27,7 +27,7 @@
     align-items: center;
     perspective: 1px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .parallax__layer {
@@ -83,7 +83,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 */
 
 .parallax-image {
-    background-image: url('../../../public/logos/BackgroundPattern.png');
+    background-image: url('/logos/BackgroundPattern.png');
     position: fixed;
     width: 200%;
     height: 200%;
@@ -94,7 +94,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 }
 
 .parallax-image-safari {
-    background-image: url('../../../public/logos/BackgroundPattern.png');
+    background-image: url('/logos/BackgroundPattern.png');
     position: fixed;
     width: 200%;
     height: 200%;
@@ -161,7 +161,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 
     .parallax_layer_back {
-        height: 620vh;
+        height: 420vh;
     }
 }
 
@@ -171,9 +171,6 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
 
 @media screen and (max-width: 300px) {
-    .banner {
-        margin-left: 12%;
-    }
 
     .parallax_layer_back {
         height: 1040vh;
