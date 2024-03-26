@@ -124,9 +124,6 @@
         margin-left: 3%;
     }
 
-    .banner-title {
-        font-size: 20px;
-    }
 
     .banner-text {
         font-size: 15px;
@@ -134,6 +131,13 @@
 
     .enrollment-period {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .banner-title {
+        font-size: 20px;
+        width: 100%;
     }
 }
 
