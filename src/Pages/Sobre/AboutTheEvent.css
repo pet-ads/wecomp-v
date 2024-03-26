@@ -63,11 +63,17 @@
     }
 
     .infoconteiner {
-        padding-top: 30vh;
+        padding-top: 15vh;
     }
 
 }
 
+@media screen and (max-width:430px) {
+
+    .infoconteiner {
+        padding-top: 15vh;
+    }
+}
 
 @media screen and (max-width: 390px) {
     .about-the-event {
@@ -84,7 +90,7 @@
     }
 
     .infoconteiner {
-        padding-top: 50vh;
+        padding-top: 25vh;
     }
 
 }
@@ -95,7 +101,7 @@
     }
 
     .infoconteiner {
-        padding-top: 100vh;
+        padding-top: 75vh;
     }
 
 }
@@ -107,7 +113,7 @@
     }
 
     .infoconteiner {
-        padding-top: 130vh;
+        padding-top: 125vh;
     }
 
 }
