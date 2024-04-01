@@ -11,11 +11,12 @@ import { useBreakpointValue } from "@chakra-ui/react";
 export default function Programacao() {
   const [hasEvents] = useState(false);
   const width = useBreakpointValue({ base: "80vw", md: "50vw", lg: "40vw" }) ?? "80vw";
+  const widthCarouselCard = "fit-content";
 
   return (
     <div id="programacao" className="schedule">
       <div className={hasEvents ? "ScheduleConteiner" : "conteiner-text"}>
-        <ConteinerCard width={width} heigth="auto">
+        <ConteinerCard width={hasEvents ? widthCarouselCard : width} heigth="auto">
           {" "}
           {hasEvents === false ? "" : <Header title="Programação" />}
           {hasEvents === false ? (
