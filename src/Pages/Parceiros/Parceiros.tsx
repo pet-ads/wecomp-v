@@ -10,8 +10,9 @@ interface IParceirosProps {
 }
 
 export default function Parceiros({ isLandscape }: IParceirosProps) {
-  const [haspartner] = useState(false);
+  const [haspartner] = useState(true);
   const [supporters, setSupporters] = useState([]);
+  const [realization, setRealization] = useState([]);
   const [organizers, setOrganizers] = useState([]);
 
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
         const response = await fetch("/Data/partners.json");
         const data = await response.json();
         setSupporters(data.supporters);
+        setRealization(data.realizadores);
         setOrganizers(data.organizers);
       } catch (error) {
         console.error("Ocorreu um erro ao obter os integrantes:", error);
@@ -42,7 +44,8 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
               <AboutPartners />
             )}
 
-            <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
+            <GroupOfPartners partners={realization} text="Realização" isLandscape={isLandscape} />
+            <GroupOfPartners partners={organizers} text="Organização" isLandscape={isLandscape} />
           </div>
         </ConteinerCard>
       </div>

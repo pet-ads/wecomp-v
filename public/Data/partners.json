@@ -1,18 +1,27 @@
 {
-    "organizers": [
+    "realizadores": [
         {
             "id": 1,
-            "src": "../logos/pet.png",
-            "name": "PET/ADS",
-            "link": "http://petads.paginas.scl.ifsp.edu.br",
-            "width": 160
+            "src": "../logos/onesix.png",
+            "name": "OneSix",
+            "link": "https://onesix.global/",
+            "width": 140
         },
         {
             "id": 2,
-            "src": "../logos/logoIFSPbranco.png",
+            "src": "../logos/logoIFSPpreto.png",
             "name": "IFSP - São Carlos",
             "link": "https://portais.ifsp.edu.br/scl/",
             "width": 230
+        }
+    ],
+    "organizers": [
+        {
+            "id": 2,
+            "src": "../logos/pet.png",
+            "name": "PET/ADS",
+            "link": "http://petads.paginas.scl.ifsp.edu.br",
+            "width": 140
         }
     ],
     "supporters": [
@@ -21,7 +30,7 @@
             "src": "../logos/onovolab.png",
             "name": "Onovolab",
             "link": "https://onovolab.com",
-            "width": 240
+            "width": 220
         }
     ],
     "unused": [
