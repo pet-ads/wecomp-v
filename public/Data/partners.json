@@ -5,14 +5,14 @@
             "src": "../logos/onesix.png",
             "name": "OneSix",
             "link": "https://onesix.global/",
-            "width": 140
+            "width": 120
         },
         {
             "id": 2,
             "src": "../logos/logoIFSPpreto.png",
             "name": "IFSP - São Carlos",
             "link": "https://portais.ifsp.edu.br/scl/",
-            "width": 230
+            "width": 200
         }
     ],
     "organizers": [
@@ -30,7 +30,14 @@
             "src": "../logos/onovolab.png",
             "name": "Onovolab",
             "link": "https://onovolab.com",
-            "width": 240
+            "width": 200
+        },
+        {
+            "id": 2,
+            "src": "../logos/softable.png",
+            "name": "Softable",
+            "link": "https://softable.com.br",
+            "width": 200
         }
     ],
     "unused": [
