@@ -5,14 +5,14 @@
             "src": "../logos/onesix.png",
             "name": "OneSix",
             "link": "https://onesix.global/",
-            "width": 120
+            "width": 100
         },
         {
             "id": 2,
             "src": "../logos/logoIFSPpreto.png",
             "name": "IFSP - São Carlos",
             "link": "https://portais.ifsp.edu.br/scl/",
-            "width": 200
+            "width": 130
         }
     ],
     "organizers": [
@@ -21,7 +21,7 @@
             "src": "../logos/pet.png",
             "name": "PET/ADS",
             "link": "http://petads.paginas.scl.ifsp.edu.br",
-            "width": 140
+            "width": 135
         }
     ],
     "supporters": [
@@ -30,15 +30,32 @@
             "src": "../logos/onovolab.png",
             "name": "Onovolab",
             "link": "https://onovolab.com",
-            "width": 200
+            "width": 142
         },
         {
             "id": 2,
-            "src": "../logos/softable.png",
+            "src": "../logos/onesix.png",
+            "name": "OneSix",
+            "link": "https://onesix.global/",
+            "width": 100
+        },
+        {
+            "id": 3,
+            "src": "../logos/softable-preto.png",
             "name": "Softable",
             "link": "https://softable.com.br",
-            "width": 200
+            "width": 142
+        },
+
+        {
+            "id": 4,
+            "src": "../logos/f1rst.png",
+            "name": "Softable",
+            "link": "https://www.f1rst.com.br/first/",
+            "width": 142
         }
+       
+       
     ],
     "unused": [
         {
