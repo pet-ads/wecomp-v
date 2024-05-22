@@ -14,6 +14,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
   const [supporters, setSupporters] = useState([]);
   const [realization, setRealization] = useState([]);
   const [organizers, setOrganizers] = useState([]);
+  const[wecompSupport, setWecompSupport] = useState([]);
 
   useEffect(() => {
     const fetchPartners = async () => {
@@ -23,6 +24,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
         setSupporters(data.supporters);
         setRealization(data.realizadores);
         setOrganizers(data.organizers);
+        setWecompSupport(data.wecompSupport);
       } catch (error) {
         console.error("Ocorreu um erro ao obter os integrantes:", error);
       }
@@ -46,6 +48,7 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
 
             <GroupOfPartners partners={realization} text="Realização" isLandscape={isLandscape} />
             <GroupOfPartners partners={organizers} text="Organização" isLandscape={isLandscape} />
+            <GroupOfPartners partners={wecompSupport} text="WECOMP apoia" isLandscape={isLandscape} />
           </div>
         </ConteinerCard>
       </div>
