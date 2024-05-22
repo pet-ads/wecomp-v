@@ -45,7 +45,6 @@ export default function Parceiros({ isLandscape }: IParceirosProps) {
             ) : (
               <AboutPartners />
             )}
-
             <GroupOfPartners partners={realization} text="Realização" isLandscape={isLandscape} />
             <GroupOfPartners partners={organizers} text="Organização" isLandscape={isLandscape} />
             <GroupOfPartners partners={wecompSupport} text="WECOMP apoia" isLandscape={isLandscape} />
