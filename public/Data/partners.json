@@ -40,14 +40,6 @@
         },
 
         {
-            "id": 4,
-            "src": "../logos/f1rst.png",
-            "name": "Softable",
-            "link": "https://www.f1rst.com.br/first/",
-            "width": 142
-        },
-
-        {
             "id": 5,
             "src": "../logos/marlabs.png",
             "name": "Marlabs",
